@@ -1,0 +1,19 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'YESTER.'
+theme = "yester"
+
+copyright = 'Everything is mine'
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    title = 'YESTER. (EN)'
+    languageName = 'en'
+    contentDir = 'content/en'
+    staticDir = ['static']
+  [languages.ee]
+    title = 'YESTER. (EE)'
+    contentDir = 'content/ee'
+    languageName = 'ee'
+    staticDir = ['static']
+

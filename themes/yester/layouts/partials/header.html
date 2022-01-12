@@ -1,0 +1,59 @@
+<!--div id="nav-border" class="container">
+    <nav id="nav" class="nav justify-content-center">
+        {{ range .Site.Menus.main }}
+        <a class="nav-link" href="{{ .URL }}">
+        {{ if .Pre }}
+        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+        {{ $icon }}
+        {{ end }}
+        {{ $text := print .Name | safeHTML }}
+        {{ $text }}
+        </a>
+        {{ end }}
+    </nav>
+</div -->
+
+<div class="container container-m pb-md-5">
+  <ul>
+    {{ range $.Site.Home.AllTranslations }}
+    <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+    {{ end }}
+  </ul>
+  <div class="row pb-4">
+    <div class="col-12 d-flex flex-row align-items-center">
+      <img
+        class="d-none d-md-block"
+        src="/img/yester-logo.svg"
+        alt="YESTER Logo"
+        width="194"
+        height="auto"
+      />
+      <nav class="Nav d-flex">
+        <a
+          class="Nav__Link Nav__Link--active"
+          href="#"
+          id="platformLink"
+          onclick="smoothScroll(this, document.getElementById('platform'))"
+        >
+          Platform
+        </a>
+        <a
+          class="Nav__Link"
+          href="#"
+          id="protsessLink"
+          onclick="smoothScroll(this, document.getElementById('protsess'))"
+        >
+          Protsess
+        </a>
+        <a
+          class="Nav__Link"
+          href="#"
+          id="kontaktLink"
+          onclick="smoothScroll(this, document.getElementById('kontakt'))"
+        >
+          Kontakt
+        </a>
+      </nav>
+    </div>
+  </div>
+</div>
