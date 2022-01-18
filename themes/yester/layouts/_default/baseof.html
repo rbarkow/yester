@@ -3,7 +3,81 @@
   {{- partial "head.html" . -}}
   <body>
     <section class="Top bg--grey" id="platform">
-      {{- partial "header.html" . -}} {{- partial "part1.html" . -}}
+      {{- partial "header.html" . -}}
+
+      <div class="container position-relative">
+        <img
+          class="d-md-none mb-4"
+          src="/img/yester-logo.svg"
+          alt="YESTER Logo"
+          width="194"
+          height="auto"
+        />
+        <div class="row pt-md-2">
+          <div class="col-12 col-lg-6">
+            <h1>
+              Muudame su <br />ettevõtte <br />
+              {{ .Title }}
+              <b>
+                protsessid <br />
+                efektiivsemaks
+              </b>
+            </h1>
+            <img
+              class="d-lg-none"
+              src="/img/workflow.svg"
+              alt="YESTER Workflow"
+              width="100%"
+              height="auto"
+            />
+
+            <img
+              class="Line Line--0"
+              src="/img/line0.svg"
+              alt="Line vertical"
+              width="4"
+              height="auto"
+            />
+
+            <p>
+              <b> Yester </b>
+              on platvorm, mida saad kasutada põhimõtteliselt iga protsessi
+              juhtimiseks. Yester on nagu lego, millest ehitad endale sobiva
+              lahenduse ja kasutad seda terves ettevõttes. Puhkusetaotlusest
+              kliendikaebusteni, töötajate onboardingust kuni seadmete hoolduse
+              registrini, piire ei ole, kasuta enda kujutlusvõimet - mis
+              protsessid on sinul vaja digitaalseks viia?
+            </p>
+            <div class="">
+              <span class="Button Button__Protsess">Yesteri protsess</span>
+              <span class="Button Button__Protsess__Arrow">
+                <img
+                  src="/img/polygon1.svg"
+                  alt="Button polygon arrow"
+                  width="25"
+                  height="auto"
+                />
+              </span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-none d-lg-block">
+            <img
+              src="/img/workflow.svg"
+              alt="YESTER Workflow"
+              width="100%"
+              height="auto"
+            />
+          </div>
+        </div>
+
+        <img
+          class="Line Line--1"
+          src="/img/line1.svg"
+          alt="Arrow down"
+          width="4"
+          height="auto"
+        />
+      </div>
     </section>
 
     <section class="Main pt-11 pb-5">
