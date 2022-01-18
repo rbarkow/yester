@@ -12,81 +12,33 @@
                 </p>
             </div>
 
-            <div>
-                <ul>
-                  {{ range where .Site.Pages "Section" "partners" }} {{ range .Pages }} <h1>
-
-                      {{
-                      .Title }} 
-                  </h1>
-                  {{ end }} {{ end }}
-                </ul>
-              </div>
-
             <div class="col-12 col-lg-8">
                 <div class="row">
+                    {{ range where .Site.Pages "Section" "team" }} {{ range .Pages }}
                     <div class="col-12 col-lg-4 mb-5">
                         <div class="card Usercard">
                             <div class="card-body d-flex flex-column align-items-center">
-                                <img class="Usercard__Image"
-                                    src="/img/profilePictures/Jaanus-Nestra.jpg"
-                                    width="218px"
-                                    height="auto"
-                                    alt="Jaanus Nestra profile photo">
+                                {{ with .Resources.ByType "image" }}
+                                    {{ range . }}
+                                        <img class="Usercard__Image"
+                                            src="{{ .RelPermalink }}"
+                                            width="218px"
+                                            height="auto"
+                                            alt="Profile photo">
+                                    {{ end }}
+                                {{ end }}
                                 <p class="card-text">
-                                <h3 class="text-center">
-                                    Jaanus Nestra
-                                </h3>
-                                <h4>
-                                    
-                                </h4>
-                                jaanus@yester.com
+                                    <h3 class="text-center">
+                                        {{ .Title }}
+                                    </h3>
+                                    <h4>
+                                        {{ .Params.Mail }}
+                                    </h4>
                                 </p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-12 col-lg-4 mb-5">
-                        <div class="card Usercard">
-                            <div class="card-body d-flex flex-column align-items-center">
-                                <img class="Usercard__Image"
-                                    src="/img/profilePictures/ingrid.jpg"
-                                    width="218px"
-                                    height="auto"
-                                    alt="Ingrid Prinsthal profile photo">
-                                <p class="card-text">
-                                <h3 class="text-center">
-                                    Ingrid Prinsthal
-                                </h3>
-                                <h4>
-                                    
-                                </h4>
-                                ingrid@yester.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-4 mb-5">
-                        <div class="card Usercard">
-                            <div class="card-body d-flex flex-column align-items-center">
-                                <img class="Usercard__Image"
-                                    src="/img/profilePictures/sirli.jpg"
-                                    width="218px"
-                                    height="auto"
-                                    alt="Sirli Veermäe profile photo">
-                                <p class="card-text">
-                                <h3 class="text-center">
-                                    Sirli Veermäe
-                                </h3>
-                                <h4>
-                                    
-                                </h4>
-                                sirli@yester.com
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    {{ end }} {{ end }}
 
                 </div>
             </div>
