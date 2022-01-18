@@ -1,0 +1,84 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.processContainers.processContainers.enable }}
+	{{ with $data.processContainers.processContainers }}
+    <section class="bg--grey pt-11 pb-11 "  id="processContainer">
+
+        <div class="container">
+            <div class="row pb-6">
+                <div class="col-12 col-lg-6">
+                    <h1 class="d-flex justify-content-between">
+                        {{ .title | markdownify }}
+                        <img class="d-none d-lg-block" src="/img/divider-arrow-sm.svg" alt="Arrow right" width="114" height="99" />
+                    </h1>
+                </div>
+                <div class="col-12 col-lg-6 pt-4">
+                    <p class="text--20">
+                        {{ .content | markdownify }}
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-12 col-lg-6">
+                    {{ range $i, $el := .container}}
+                        {{if (modBool $i 2)}}
+                        <div class="card ListCard">
+                            <h4 class="ListCard__Title">
+                                <img class="ListCard__Title__Icon" src="{{ .icon }}" alt="Bag" width="48" height="48" />
+                                {{ .title }}
+                            </h4>
+                            <ul class="ListCard__List">
+                                {{ range .items}}
+                                    {{ if .title }}
+                                        <li class="ListCard__List__Item">
+                                            <span>
+                                                {{ .title }}
+                                            </span>
+                                            {{ if .description }}
+                                            <i>
+                                                {{ .description }}
+                                            </i>
+                                            {{ end }}
+                                        </li>
+                                    {{ end }}
+                                {{ end }}
+                            </ul>
+                        </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    {{ range $i, $el := .container}}
+                        {{if not (modBool $i 2)}}
+                        <div class="card ListCard">
+                            <h4 class="ListCard__Title">
+                                <img class="ListCard__Title__Icon" src="{{ .icon }}" alt="Bag" width="48" height="48" />
+                                {{ .title }}
+                            </h4>
+                            <ul class="ListCard__List">
+                                {{ range .items}}
+                                    {{ if .title }}
+                                        <li class="ListCard__List__Item">
+                                            <span>
+                                                {{ .title }}
+                                            </span>
+                                            {{ if .description }}
+                                            <i>
+                                                {{ .description }}
+                                            </i>
+                                            {{ end }}
+                                        </li>
+                                    {{ end }}
+                                {{ end }}
+                            </ul>
+                        </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+{{ end }}

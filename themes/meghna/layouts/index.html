@@ -1,33 +1,16 @@
 {{ define "main" }}
-
-{{ partial "banner.html" . }}
-
-{{ partial "navigation.html" . }}
-
-{{ partial "about.html" . }}
-
-{{ partial "feature.html" . }}
-
-{{ partial "cta.html" . }}
-
-{{ partial "service.html" . }}
-
-{{ partial "skill.html" . }}
-
-{{ partial "portfolio.html" . }}
-
-{{ partial "funfacts.html" . }}
-
-{{ partial "team.html" . }}
-
-{{ partial "pricing.html" . }}
-
-{{ partial "testimonial.html" . }}
-
-{{ partial "blog.html" . }}
-
-{{ partial "contact.html" . }}
-
-{{ partial "map.html" . }}
-
+    <section class="Top bg--grey" id="platform">
+        {{ partial "navigation.html" . }}
+        {{ partial "platform.html" . }}
+    </section>
+    <section class="Main pt-11 pb-5">
+        {{ partial "faq.html" . }}
+        {{ partial "teaser.html" .}}
+        {{ partial "processInfo.html"}}
+    </section>
+    
+    {{ partial "processContainer.html" .}}
+    {{ partial "clients.html" . }}
+    {{ partial "team.html" . }}
+    {{ partial "foot.html" . }}
 {{ end }}

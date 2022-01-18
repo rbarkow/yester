@@ -1,13 +1,22 @@
-/* ========================================================================= */
-/*	Page Preloader
-/* ========================================================================= */
 
-$(window).on('load', function () {
-	$('.preloader').fadeOut(100);
+// Toggle mobile Navigation
+document.getElementById('js_toggleNav').addEventListener('click', function () {
+  const mobileNav = document.getElementById('js_mobileNav')
+  const button = document.getElementById('js_toggleNav')
+
+  if(mobileNav.classList.contains('Nav__Mobile--active')) {
+    mobileNav.classList.remove('Nav__Mobile--active');
+    button.classList.remove('open');
+  } else {
+    mobileNav.classList.add('Nav__Mobile--active');
+    button.classList.add('open');
+  }
+
 });
 
 jQuery(function ($) {
 	"use strict";
+
 
 	/* ========================================================================= */
 	/*	lazy load initialize
@@ -36,42 +45,8 @@ jQuery(function ($) {
 	});
 
 	/* ========================================================================= */
-	/*	Portfolio Filtering Hook
-	/* =========================================================================  */
-
-	var containerEl = document.querySelector('.shuffle-wrapper');
-	if (containerEl) {
-		var Shuffle = window.Shuffle;
-		var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
-			itemSelector: '.shuffle-item',
-			buffer: 1
-		});
-
-		jQuery('input[name="shuffle-filter"]').on('change', function (evt) {
-			var input = evt.currentTarget;
-			if (input.checked) {
-				myShuffle.filter(input.value);
-			}
-		});
-	}
-
-	/* ========================================================================= */
-	/*	Testimonial Carousel
-	/* =========================================================================  */
-
-	$("#testimonials").slick({
-		infinite: true,
-		arrows: false,
-		autoplay: true,
-		autoplaySpeed: 4000
-	});
-
-	/* ========================================================================= */
 	/*	animation scroll js
 	/* ========================================================================= */
-
-
-
 	function myFunction(x) {
 		if (x.matches) {
 			var topOf = 50

@@ -1,0 +1,86 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.processInfo.processInfo.enable }}
+	{{ with $data.processInfo.processInfo }}
+<div class="container pb-5" id="protsess">
+    <div class="row position-relative pt-11">
+        <img class="Divider__Arrow--Down" src="/img/divider-arrow-down.svg" alt="Arrow down" width="25.97" height="auto" />
+        <div class="col-12 col-lg-5">
+            <h1>
+                {{ .title | markdownify }}
+            </h1>
+        </div>
+        <div class="col-12 col-lg-7">
+            <p>
+                {{ .content | markdownify }}
+            </p>
+        </div>
+
+        
+        <div class="col-12 Info Info--xl Info__Wrapper">
+            <figure class="Info__Circle">
+                <div class="Info__Line text-center  pb-2">
+                    <img src="/img/yester-logo.svg" alt="YESTER Logo" width="197" height="53" /><br/>
+                    <img src="{{ .arrowDownSvg }}" alt="Arrow down" width="26" height="auto" />
+                </div>
+
+                <div class="Info__Icon Info__Icon--Cog text-right">
+                    <span>
+                        {{ .item1.title | markdownify }}
+                    </span>
+                    <img class="Info__Svg" src="{{ .item1.icon }}" alt="Cog" width="102.31" height="auto" />
+                </div>
+
+                <div class="Info__Line text-center pb-2">
+                    <img src="{{ .arrowDownSvg }}" alt="Arrow down" width="26" height="auto" />
+                </div>
+
+                <div class="Info__Icon Info__Icon--Arrow-Down text-left">
+                    <img class="Info__Svg" src="{{ .item2.icon }}" alt="Arrow Down" width="98.47" height="auto" />
+                    <span>
+                        {{ .item2.title | markdownify }}
+                    </span>
+                </div>
+                
+
+                <div class="Info__Line text-center pb-2">
+                    <img src="{{ .arrowDownSvg }}" alt="Arrow down" width="26" height="auto" />
+                </div>
+
+                <div class="Info__Icon Info__Icon--People text-left">
+                    <img class="Info__Svg" src="{{ .item3.icon }}"  alt="People" width="82.81" height="auto" />
+                    <span>
+                        {{ .item3.title | markdownify }}
+                    </span>
+                </div>
+
+                <div class="Info__Line text-center pb-2">
+                    <img src="{{ .arrowDownSvg }}" alt="Arrow down" width="26" height="auto"/>
+                </div>
+
+                <div class="Info__Icon Info__Icon--Arrow-Swing text-center">
+                    <img class="Info__Svg" src="{{ .item4.icon }}" alt="Arrow Swing" width="96.94" height="auto" />
+                    <span>
+                        {{ .item4.title | markdownify }}
+                    </span>
+                </div>
+
+                <div class="Info__Line text-center pb-2">
+                    <img src="{{ .arrowDownSvg }}" alt="Arrow down" width="26" height="auto"/>
+                </div>
+
+                <div class="Info__Icon Info__Icon--Rocket text-right">
+                    <span>
+                        {{ .item5.title | markdownify }}
+                    </span>
+                    <img class="Info__Svg" src="{{ .item5.icon }}" alt="Rocket" width="102.48" height="auto" />
+                </div>
+
+                
+                <img class="Info__Logo" src="{{ .infoLogoSvg }}" alt="YESTER Logo" width="198" height="auto" />
+            </figure>
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ end }}

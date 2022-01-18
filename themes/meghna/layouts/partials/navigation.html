@@ -1,71 +1,80 @@
-<section class="sticky-top navigation">
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">
-				{{ if site.Params.logo }}
-				<img class="lozad" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height="42">
-				{{ else }}
-				{{ site.Title }}
-				{{ end }}
+<div class="Nav">
+	<div class="container container-m Nav__Wrapper">
+		<a href="/">
+			<img class="mr-5 ml-4 ml-lg-0" src="/img/yester-logo.svg" alt="YESTER Logo" width="194" height="auto" />
+		</a>
+		
+		<nav class="Nav__Container d-none d-lg-flex mr-5">
+			{{ $currentPage := . }}
+			{{ range site.Menus.main }}
+			{{ $menuURL := .URL | absLangURL }}
+			{{ $pageURL:= $currentPage.Permalink | absLangURL }}
+			{{ $active := eq $menuURL $pageURL }}
+			<a class="Nav__Link nav-link" href="#{{ .URL }}">
+				{{ .Name }}
 			</a>
+			{{ end }}
+		</nav>
+	
+		<nav class="Nav__Container d-none d-lg-flex">
+			{{ range site.Menus.app }}
+			<a class="Nav__Link" href="{{ .URL }}" target="_blank">
+				{{ .Name }}
+			</a>
+			{{ end }}
+		</nav>
 
-			<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navigation">
-				<ul class="navbar-nav ml-auto">
-          <!-- menu active -->
-          {{ $currentPage := . }}
-          {{ range site.Menus.main }}
-          {{ $menuURL := .URL | absLangURL }}
-          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-          {{ $active := eq $menuURL $pageURL }}
-          {{ if .HasChildren }}
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              {{ .Name }}
-            </a>
-            <div class="dropdown-menu">
-              {{ range .Children }}
-              {{ $childURL := .URL | absLangURL }}
-              {{ $active := eq $childURL $pageURL }}
-              <a class="dropdown-item" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
-              {{ end }}
-            </div>
-          </li>
-          {{ else }}
-          <li class="nav-item">
-            <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
-          </li>
-          {{ end }}
-          {{ end }}
-        </ul>
-				<!-- Language List -->
-				{{- if site.IsMultiLingual }}
-				<select id="select-language" onchange="location = this.value;">
-					{{ $siteLanguages := site.Languages}}
-					{{ $pageLang := .Page.Lang}}
-					{{ range .Page.AllTranslations }}
+		{{- if site.IsMultiLingual }}
+		<nav class="Nav__Container Nav__Container--small d-none d-lg-flex ml-auto">
+			{{- if site.IsMultiLingual }}
+				{{ $siteLanguages := site.Languages}}
+				{{ $pageLang := .Page.Lang}}
+				{{ range .Page.AllTranslations }}
 					{{ $translation := .}}
 					{{ range $siteLanguages }}
-					{{ if eq $translation.Lang .Lang }}
-					{{ $selected := false }}
-					{{ if eq $pageLang .Lang}}
-					<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-					</option>
-					{{ else }}
-					<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+						{{ if eq $translation.Lang .Lang }}
+							{{ if not (eq $pageLang .Lang)}}
+								<a href="#" id="{{ $translation.Language }}" class="Nav__Link" onclick="location = '{{ $translation.Permalink }}';">
+									{{ .LanguageName }}
+								</a>
+							{{ end }}
+						{{ end }}
 					{{ end }}
-					{{ end }}
-					{{ end }}
-					{{ end }}
-				</select>
 				{{ end }}
-			</div>
+			{{ end }}
 		</nav>
+		{{ end }}
+
+		<button class="d-lg-none ml-auto mr-4 Nav__Burger" id="js_toggleNav">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+
 	</div>
-</section>
+	<nav class="Nav__Mobile d-lg-none" id="js_mobileNav">
+		<ul class="Nav__Mobile__List">
+			{{ range site.Menus.main }}
+			<li  class="Nav__Mobile__List__Item">
+				<a href="#{{ .URL }}" class="Nav__Link Nav__Mobile__Link">
+					{{ .Name }}
+				</a>
+			</li>
+			{{ end }}
+		</ul>
+		<ul class="Nav__Mobile__List">
+			<li  class="Nav__Mobile__List__Item">
+				<a href="" class="Nav__Link Nav__Mobile__Link">
+					Logi sisse
+				</a>
+			</li>
+		</ul>
+		<ul class="Nav__Mobile__List">
+			<li  class="Nav__Mobile__List__Item">
+				<a href="" class="Nav__Link Nav__Mobile__Link">
+					EE
+				</a>
+			</li>
+		</ul>
+	</nav>
+</div>

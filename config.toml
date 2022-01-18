@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://examplesite.com"
-title = "Meghna"
+title = "YESTER."
 theme = "meghna"
 # post pagination
 paginate = "6"
@@ -42,104 +42,55 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "about"
-url = "#about"
+name = "Platform"
+url = "platform"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "services"
-url = "#services"
+name = "Process"
+url = "protsess"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
+name = "Clients"
+url = "clients"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "team"
-url = "#team"
+name = "Contact"
+url = "contact"
 weight = 4
 
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.en.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-
-[[Languages.en.menu.main]]
-name = "Dropdown"
-weight = 7
-hasChildren = true
-
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
+[[Languages.en.menu.app]]
+name = "Log in"
+url = "https://app.yester.eu"
 weight = 1
 
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-
-
-################### French Navigation ########################
-[[Languages.fr.menu.main]]
-name = "sur"
-url = "#about"
+################### Estonian Navigation ########################
+[[Languages.ee.menu.main]]
+name = "Platform"
+url = "platform"
 weight = 1
 
-[[Languages.fr.menu.main]]
-name = "un service"
-url = "#services"
+[[Languages.ee.menu.main]]
+name = "Protsess"
+url = "protsess"
 weight = 2
 
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
+[[Languages.ee.menu.main]]
+name = "Kliendid"
+url = "clients"
 weight = 3
 
-[[Languages.fr.menu.main]]
-name = "équipe"
-url = "#team"
+[[Languages.ee.menu.main]]
+name = "Kontakt"
+url = "contact"
 weight = 4
 
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
-
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+[[Languages.ee.menu.app]]
+name = "Logi sisse"
+url = "https://app.yester.eu"
+weight = 1
 
 ############################# Default Parameters ##########################
 [params]
@@ -152,23 +103,10 @@ google_analytics_id = "" # Your ID
 # post share
 post_share = true
 
-# preloader
-[params.preloader]
-enable = false
-preloader = "images/logo.png"
-
 # cookies
 [params.cookies]
 enable = false
 expire_days = 2
-
-# google map
-[params.map]
-enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
 
 ############################# social icons ##########################
 [[params.social]]
@@ -206,10 +144,10 @@ home = "Home"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
 ################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
+[Languages.ee]
+languageName = "EE"
+languageCode = "ee-EE"
+contentDir = "content/estonian"
 weight = 2
 home = "Accueil"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"

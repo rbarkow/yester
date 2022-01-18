@@ -3,21 +3,21 @@ team:
   title : Meie tiim
   team_member :
     - name : Jaanus Nestra
-      image : img/team/Jaanus-Nestra.jpg
+      image : /img/team/Jaanus-Nestra.jpg
       email : jaanus@yester.eu
         
     - name : Ingrid Prinsthal
-      image : img/team/ingrid.jpg
+      image : /img/team/ingrid.jpg
       email : ingrid@yester.eu
         
     - name : Sirli Veermäe
-      image : img/team/sirli.jpg
+      image : /img/team/sirli.jpg
       email : sirli@yester.eu
         
     - name : Eugene Zhukov
-      image : img/team/sirli.jpg
+      image : /img/team/sirli.jpg
       email : eugene@yester.eu
         
     - name : Joosep Järve
-      image : img/team/sirli.jpg
+      image : /img/team/sirli.jpg
       email : joosep@yester.eu

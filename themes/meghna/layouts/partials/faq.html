@@ -1,0 +1,49 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.faqs.faqs.enable }}
+	{{ with $data.faqs.faqs }}
+
+<div class="container">
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<h1>
+				{{ .title | markdownify }}
+			</h1>
+			<img class="Line Line--3" src="/img/divider-arrow-down-sm.svg" alt="Arrow down" width="25.97" height="auto" />
+			<p>
+				{{ .content | markdownify }}
+			</p>
+
+			<img class="Line Line--2" src="/img/line2.svg" alt="Line vertical" width="4" height="auto" />
+		</div>
+		<div class="col-sm-12 col-md-6 pb-5">
+			<div class="card Collapsable">
+				<div class="tabs">
+					{{ range $i := .items}}
+						<div class="tab">
+							<input class="Collapsable--Checkbox" type="checkbox" id="rd{{$i}}" name="rd">
+							<label class="tab-label" for="rd{{$i}}">
+									{{ .title | markdownify }}
+								<span class="Collapsable--Open">
+									<img src="/img/collaps1.svg" alt="Collapsable arrow" width="25" height="auto" />
+								</span>
+								<span class="Collapsable--Close">
+									<img src="/img/collaps0.svg" alt="Collabsable cross" width="16" height="16" />
+								</span>
+							</label>
+							<div class="tab-content">
+								<p>
+									{{ .content | markdownify }}
+								</p>
+							</div>
+						</div>
+					{{ end }}
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+{{ end }}
+{{ end }}
