@@ -1,0 +1,20 @@
+faqs:
+  enable : true
+  title : Kasulik igale ettevõttele
+  content: | 
+    **Yester on universaalne** ning seda saab kasutada ükskõik millise protsessi juhtimiseks. Oleme näinud, et suur osa tööst tehakse veel tänagi Excelis või paberi-pliiatsiga. Alates puhkuseavaldustest kuni töövahendite halduseni, on-boardingust kuni off-boardinguni. Yester annab protsesside hetkeseisust selge ülevaate.
+  items :
+    - title : Vähendab tegevuste dubleerimist
+      content : Dubleeritud protsessid ei raiska ainult inimeste aega, vaid ka energiat. Yester vähendab tegevuste dubleerimist. Igale lihtsale või keerulisele ülesandele on määratud vastutajad ja osalejad. Yester ühendab ka olemasolevaid süsteeme, nii et info liigub ühest teise ilma vahepealse käsitööta.
+
+    - title : Annab selge ülevaate
+      content : Yesteriga paned paika, kes ja mis järjekorras asju teeb. Nii on kõikidel protsessis osalejatel selge ülevaade sellest, kui kaugel on asjad ning kes parasjagu enda panuse peab andma.
+
+    - title : Tõstab efektiivsust
+      content : Kui protsesse juhitakse käsitsi või jooksvalt, juhtub enamasti üks kahest stsenaariumist. Kas keegi ei tegele või tegelevad sellega mitu inimest korraga. Õhus on pidevalt segadus ja küsimus – “Kas selle asjaga on korras?” Yester vähendab sellist ebaefektiivsust. Yesteriga on protsessid läbi mõeldud ja seega efektiivsed. Ei pea iga kord uuesti leiutama, et kes mida ja millises järjekorras peab tegema – see on juba kokku lepitud ja kõigile selge.
+
+    - title : Info liigub
+      content : Näiteks kui olete saanud kliendikaebuse, siis saavad sellest teavituse kõik, keda see puudutab. Teavituse saab see, kes peab tagasisidega tegelema või mõne muu ülesande täitma. Nii väldid keti e-kirjade saatmist, info dubleerimist ja sumbumist ning samas on ka selge ülevaade, kes on olukorraga kursis ning kõik teavad oma ülesandeid.
+
+    - title : Kerge muuta ja edasi arendada
+      content : Yesteris saad muutunud protsessi kiiresti tegelikkusele vastavaks korrigeerida. Näiteks kui kliendikaebuste protsessi otsustatakse kaasata ka ostujuht, siis tema protsessi lisamine on lihtne. Või hoopis on protsessis keegi väiksema rolliga ning ei vaja infot sellise detailsusastmega – sellisel juhul saame ta lihtsasti protsessist välja võtta.

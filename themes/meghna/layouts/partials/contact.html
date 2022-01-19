@@ -1,0 +1,55 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.contact.contact.enable }}
+	{{ with $data.contact.contact }}
+		{{ if .contact_form.enable }}
+		<footer id="contact">
+			<section class="pt-11 pb-11">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-4 pb-4">
+							<h1>
+								{{ .title | markdownify }}
+							</h1>
+							<img class="d-none d-lg-block" src="/img/divider-arrow.svg" alt="Arrow right" width="350" height="21" />
+							<div class="text--45">
+								{{ range .contact_list }}
+									<div class="sclearfix">
+										<i class="{{ .icon }}"></i>
+										<span>{{ .info }}</span>
+									</div>
+								{{ end }}
+							</div>
+						</div>
+						<div class="col-12 col-lg-8 fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+							{{ with .contact_form }}
+							
+								<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
+									<div class="form-group">
+										<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
+									</div>
+									<div class="form-group">
+										<input type="email" placeholder="{{ .email }}" class="form-control" name="email" id="email">
+									</div>
+									<div class="form-group">
+										<input type="text" placeholder="{{ .subject }}" class="form-control" name="subject" id="subject">
+									</div>
+									<div class="form-group">
+										<textarea rows="6" placeholder="{{ .message }}" class="form-control" name="message" id="message"></textarea>
+									</div>
+									<div class="d-flex">
+										<button class="btn p-0 m-0 ml-auto" type="submit" id="contact-submit" value="{{ .submit }}">
+											<span class="Button m-0"><b>{{ .submit }}</b></span>
+										</button>
+									</div>
+								</form>
+							{{ end }}
+						</div>
+	
+					</div>
+				</div>
+			</section>
+		</footer>
+		{{ end }}
+	{{ end }}
+{{ end }}

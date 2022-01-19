@@ -1,0 +1,7 @@
+teaser:
+  enable : true
+  title: YESTER Protsessid
+  content : |
+    Yesteriga paned ettevõtte protsessid sujuvamalt tööle ning väljend **“Yes it’s done”** muutub üha igapäevasemaks.
+  cta: Ütle meile, mis protsessi on sinul vaja yesterdada!
+  image: /img/glass.svg

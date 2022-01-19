@@ -1,19 +1,153 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'YESTER.'
-theme = "yester"
+################################# Default configuration ###################
+baseURL = "https://rbarkow.github.io/yester/"
+title = "YESTER."
+theme = "meghna"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = []
 
-copyright = 'Everything is mine'
-defaultContentLanguage = 'en'
-[languages]
-  [languages.en]
-    title = 'YESTER. (EN)'
-    languageName = 'en'
-    contentDir = 'content/en'
-    staticDir = ['static']
-  [languages.ee]
-    title = 'YESTER. (EE)'
-    contentDir = 'content/ee'
-    languageName = 'ee'
-    staticDir = ['static']
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+
+################### English Navigation ########################
+[[Languages.en.menu.main]]
+name = "Platform"
+url = "platform"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "Process"
+url = "protsess"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Clients"
+url = "clients"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Contact"
+url = "contact"
+weight = 4
+
+[[Languages.en.menu.app]]
+name = "Log in"
+url = "https://app.yester.eu"
+weight = 1
+
+################### Estonian Navigation ########################
+[[Languages.ee.menu.main]]
+name = "Platform"
+url = "platform"
+weight = 1
+
+[[Languages.ee.menu.main]]
+name = "Protsess"
+url = "protsess"
+weight = 2
+
+[[Languages.ee.menu.main]]
+name = "Kliendid"
+url = "clients"
+weight = 3
+
+[[Languages.ee.menu.main]]
+name = "Kontakt"
+url = "contact"
+weight = 4
+
+[[Languages.ee.menu.app]]
+name = "Logi sisse"
+url = "https://app.yester.eu"
+weight = 1
+
+############################# Default Parameters ##########################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "Responsive Multipurpose Parallax Hugo Template"
+author = "Themefisher"
+# Google Analytics
+google_analytics_id = "" # Your ID
+# post share
+post_share = true
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+############################# social icons ##########################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
+################################ France Language ########################
+[Languages.ee]
+languageName = "EE"
+languageCode = "ee-EE"
+contentDir = "content/estonian"
+weight = 2
+home = "Accueil"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"

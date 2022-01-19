@@ -1,0 +1,17 @@
+$spacing: 8rem;
+$burger-span-height: 6px;
+
+.bold {
+    font-weight: 600;
+}
+
+.bg {
+    &--grey {
+        background-color: $grey;
+    }
+    &--unicorn {
+        &--blue {
+            background-color: $unicornblue;
+        }
+    }
+}

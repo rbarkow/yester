@@ -1,0 +1,27 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.teaser.teaser.enable }}
+	{{ with $data.teaser.teaser }}
+
+        <div class="container container-m pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card Greencard">
+                        <div class="card-body d-flex flex-column-reverse flex-xl-row justify-content-center justify-content-xl-between">
+                            <div class="Greencard__Body">
+                                <p class="card-text Greencard__Text">
+                                    {{ .content | markdownify }}
+                                </p>
+                                <a class="page-scroll" href="#contact">
+                                    <span class="Button"><b>{{ .cta }}</b></span>
+                                </a>
+                            </div>
+                            <img class="Greencard__img" src="{{ .image }}" alt="{{ .title }}" width="560" height="auto"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {{ end }}
+{{ end }}
