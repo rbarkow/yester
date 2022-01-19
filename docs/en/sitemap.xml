@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-8/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-8/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/installation/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/installation/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/</loc>
+    <loc>https://rbarkow.github.io/yester/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://rbarkow.github.io/yester/docs/ee/"
+                href="https://rbarkow.github.io/yester/ee/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rbarkow.github.io/yester/docs/"
+                href="https://rbarkow.github.io/yester/"
                 />
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-1/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-1/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-2/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-2/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-3/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-3/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-4/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-4/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-5/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-5/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-6/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-6/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/blog/simple-blog-post-7/</loc>
+    <loc>https://rbarkow.github.io/yester/blog/simple-blog-post-7/</loc>
     <lastmod>2018-09-12T12:52:36+06:00</lastmod>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/author/</loc>
+    <loc>https://rbarkow.github.io/yester/author/</loc>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/categories/</loc>
+    <loc>https://rbarkow.github.io/yester/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://rbarkow.github.io/yester/docs/ee/categories/"
+                href="https://rbarkow.github.io/yester/ee/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rbarkow.github.io/yester/docs/categories/"
+                href="https://rbarkow.github.io/yester/categories/"
                 />
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/author/john-doe/</loc>
+    <loc>https://rbarkow.github.io/yester/author/john-doe/</loc>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/author/mark-dinn/</loc>
+    <loc>https://rbarkow.github.io/yester/author/mark-dinn/</loc>
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/tags/</loc>
+    <loc>https://rbarkow.github.io/yester/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://rbarkow.github.io/yester/docs/ee/tags/"
+                href="https://rbarkow.github.io/yester/ee/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rbarkow.github.io/yester/docs/tags/"
+                href="https://rbarkow.github.io/yester/tags/"
                 />
   </url>
 </urlset>

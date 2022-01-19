@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on YESTER.</title>
-    <link>https://rbarkow.github.io/yester/docs/ee/categories/</link>
+    <link>https://rbarkow.github.io/yester/ee/categories/</link>
     <description>Recent content in Categories on YESTER.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ee-EE</language>
-    <copyright>Copyright &amp;copy; 2020 Designed by [Themefisher](https://themefisher.com) &amp; Developed by [Gethugothemes](https://gethugothemes.com)</copyright><atom:link href="https://rbarkow.github.io/yester/docs/ee/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright &amp;copy; 2020 Designed by [Themefisher](https://themefisher.com) &amp; Developed by [Gethugothemes](https://gethugothemes.com)</copyright><atom:link href="https://rbarkow.github.io/yester/ee/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

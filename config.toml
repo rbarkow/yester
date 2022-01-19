@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://rbarkow.github.io/yester/docs/"
+baseURL = "https://rbarkow.github.io/yester/"
 title = "YESTER."
 theme = "meghna"
 publishDir = "docs"

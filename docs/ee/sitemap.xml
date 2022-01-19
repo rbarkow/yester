@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rbarkow.github.io/yester/docs/ee/categories/</loc>
+    <loc>https://rbarkow.github.io/yester/ee/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rbarkow.github.io/yester/docs/categories/"
+                href="https://rbarkow.github.io/yester/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://rbarkow.github.io/yester/docs/ee/categories/"
+                href="https://rbarkow.github.io/yester/ee/categories/"
                 />
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/ee/tags/</loc>
+    <loc>https://rbarkow.github.io/yester/ee/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rbarkow.github.io/yester/docs/tags/"
+                href="https://rbarkow.github.io/yester/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://rbarkow.github.io/yester/docs/ee/tags/"
+                href="https://rbarkow.github.io/yester/ee/tags/"
                 />
   </url><url>
-    <loc>https://rbarkow.github.io/yester/docs/ee/</loc>
+    <loc>https://rbarkow.github.io/yester/ee/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rbarkow.github.io/yester/docs/"
+                href="https://rbarkow.github.io/yester/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ee"
-                href="https://rbarkow.github.io/yester/docs/ee/"
+                href="https://rbarkow.github.io/yester/ee/"
                 />
   </url>
 </urlset>
