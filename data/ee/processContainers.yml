@@ -18,7 +18,7 @@ processContainers:
         - title : Koolituse taotlused
         - title : Kliendikaebuste haldamine
         - title : IT probleemide haldus
-        - title : Ohotusaudit
+        - title : Ohutusaudit
     - title : Finants
       icon : /img/calculator.svg
       items :

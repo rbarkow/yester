@@ -4,13 +4,13 @@
         {{ partial "platform.html" . }}
     </section>
     {{ partial "processContainer.html" .}}
-    {{ partial "processInfo.html"}}
-
-    <section class="Main pt-11 pb-11">
+    
+	<section class="pt-11 pb-11 bg--grey"  id="processContainer">
         {{ partial "faq.html" . }}
         {{ partial "teaser.html" .}}
+        {{ partial "processInfo.html"}}
     </section>
-    
+
     {{ partial "clients.html" . }}
     {{ partial "team.html" . }}
     {{ partial "foot.html" . }}

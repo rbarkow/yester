@@ -5,6 +5,13 @@ team:
     - name : Jaanus Nestra
       image : img/team/Jaanus-Nestra.jpg
       email : jaanus@yester.eu
+      social :
+        - icon : ti-facebook
+          link : "#"
+        - icon : ti-linkedin
+          link : "#"
+        - icon : ti-email
+          link : "#"
         
     - name : Ingrid Prinsthal
       image : img/team/ingrid.jpg

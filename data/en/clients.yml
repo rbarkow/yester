@@ -3,6 +3,13 @@ clients:
   title : Kliendid
   items :
     - image : img/clients/Baltiklaas.jpg
+      social :
+        - icon : ti-facebook
+          link : "#"
+        - icon : ti-linkedin
+          link : "#"
+        - icon : ti-email
+          link : "#"
         
     - image : img/clients/Ekspress Meedia.png
         

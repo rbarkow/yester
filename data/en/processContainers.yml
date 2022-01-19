@@ -24,6 +24,7 @@ processContainers:
       items :
         - title : E-arvete haldus
         - title : Kuluaruannete tegemine ja kinnitamine
+          description : I'm a second funny description
         - title : Sõidupäevikute koostamine
         - title : Ostutellimuste loomine ja kinnitamine
     - title : Boarding
@@ -32,9 +33,12 @@ processContainers:
         - title : OnBoarding ja OffBoarding
         - title : Töövahendite taotlused
         - title : Sõidupäevikute Süsteemiõiguste muudatused
+          description : I'm a second funny description
         - title : Töötaja isikuandmete edastamine ja muudatused
     - title : Tööstus
       icon : img/helmet.svg
       items :
         - title : Süsteemide/seadmete halduse ja hoolduse register
+          description : I'm a second funny description
         - title : Protsessi juhtimine seadmete riketest kuni parandamiseni
+          description : I'm a second funny description

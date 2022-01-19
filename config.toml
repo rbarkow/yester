@@ -59,9 +59,14 @@ url = "clients"
 weight = 3
 
 [[Languages.en.menu.main]]
+name = "Team"
+url = "team"
+weight = 4
+
+[[Languages.en.menu.main]]
 name = "Contact"
 url = "contact"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.app]]
 name = "Log in"
@@ -112,28 +117,16 @@ expire_days = 2
 
 ############################# social icons ##########################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-tablet"
+link = "https://app.yester.eu"
 
 [[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/yester-ltd"
 
 [[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "ti-email"
+link = "mailto:info@yester.eu"
 
 
 ################################ English Language ########################
@@ -143,7 +136,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "YESTER. &copy; 2022"
 
 ################################ France Language ########################
 [Languages.ee]
@@ -151,5 +144,6 @@ languageName = "EE"
 languageCode = "ee-EE"
 contentDir = "content/estonian"
 weight = 2
-home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+home = "Home"
+copyright = "YESTER. &copy; 2022"
+

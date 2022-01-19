@@ -2,8 +2,7 @@
 
 {{ if $data.processInfo.processInfo.enable }}
 	{{ with $data.processInfo.processInfo }}
-    <section class="bg--grey pb-11 "  id="protsess">
-<div class="container pb-5" id="">
+<div class="container pb-5" id="protsess">
     <div class="row position-relative pt-11">
         <img class="Divider__Arrow--Down" src="/img/divider-arrow-down.svg" alt="Arrow down" width="25.97" height="auto" />
         <div class="col-12 col-lg-5">
@@ -78,11 +77,10 @@
                 </div>
 
                 
-                <img class="Info__Logo" src="{{ .infoLogoSvg }}" alt="YESTER Logo" width="198" height="auto" />
+                <img class="Info__Logo d-none d-lg-block" src="{{ .infoLogoSvg }}" alt="YESTER Logo" width="198" height="auto" />
             </figure>
         </div>
     </div>
 </div>
-</section>
 {{ end }}
 {{ end }}
