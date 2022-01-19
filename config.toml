@@ -3,6 +3,7 @@ baseURL = "https://rbarkow.github.io/yester/"
 title = "YESTER."
 theme = "meghna"
 publishDir = "docs"
+canonifyURLs = true
 # post pagination
 paginate = "6"
 # post excerpt
