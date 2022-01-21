@@ -1,20 +1,20 @@
 processInfo:
-  enable : true
-  title : | 
+  enable: true
+  title: |
     Kuidas
     \
     me seda 
     \
     teeme?
   subtitle: "protsessid efektiivsemaks"
-  content : |
+  content: |
     **Kõike, mida saab kirjeldada, saab yesterdada.** 
-    
+
     Esimese asjana on vaja läbi mõelda sinu ettevõtte protsessid, et nad oleksid lihtsad, läbimõeldud ja efektiivsed. Kui see on paigas, viiakse need yesteri platvormile. See tähendab, et kui protsess on kirjeldatud, siis saavad ettevõtte töötajad seda kohe ka kasutama hakata. Seega on yesteri platvorm sinu ettevõtte jaoks väga lihtsalt kohandatav ja kiiresti juurutatav!
-    
+
     Yester võimaldab kaasata kõiki ettevõtte töötajaid. Täpselt nii palju või vähe, kui antud protsess vajab. Näiteks on puhkuste protsessi kaasatud kõik ettevõtte töötajad, kliendikaebustega tegeleb aga kindel meeskond. Yester ühendab terve ettevõtte olenemata sellest, kus nad parasjagu töötavad."
-  
-  item1: 
+
+  item1:
     title: |
       Kirjelda 
       \
@@ -23,7 +23,7 @@ processInfo:
       töövoog
     icon: /img/cog.svg
 
-  item2: 
+  item2:
     title: |
       Määra,
       \
@@ -31,8 +31,8 @@ processInfo:
       \
       töövos liikuma
     icon: /img/arrow-down.svg
-  
-  item3: 
+
+  item3:
     title: |
       Loo kasutajad
       \
@@ -41,14 +41,14 @@ processInfo:
       vastavad rollid
     icon: /img/people.svg
 
-  item4: 
+  item4:
     title: |
       Tõlgime 
       \
       teistesse keeltesse
     icon: /img/arrow-swing.svg
 
-  item5: 
+  item5:
     title: |
       Integreeri Yesteri
       \

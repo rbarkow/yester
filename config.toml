@@ -90,12 +90,17 @@ url = "clients"
 weight = 3
 
 [[Languages.ee.menu.main]]
-name = "Kontakt"
-url = "contact"
+name = "Tiim"
+url = "team"
 weight = 4
 
+[[Languages.ee.menu.main]]
+name = "Kontakt"
+url = "contact"
+weight = 5
+
 [[Languages.ee.menu.app]]
-name = "Logi sisse"
+name = "Logi Sisse"
 url = "https://app.yester.eu"
 weight = 1
 

@@ -1,30 +1,30 @@
 team:
-  enable : true
-  title : Meie tiim
-  team_member :
-    - name : Jaanus Nestra
-      image : img/team/Jaanus-Nestra.jpg
-      email : jaanus@yester.eu
-      social :
-        - icon : ti-facebook
-          link : "#"
-        - icon : ti-linkedin
-          link : "#"
-        - icon : ti-email
-          link : "#"
-        
-    - name : Ingrid Prinsthal
-      image : img/team/ingrid.jpg
-      email : ingrid@yester.eu
-        
-    - name : Sirli Veermäe
-      image : img/team/sirli.jpg
-      email : sirli@yester.eu
-        
-    - name : Eugene Zhukov
-      image : img/team/sirli.jpg
-      email : eugene@yester.eu
-        
-    - name : Joosep Järve
-      image : img/team/sirli.jpg
-      email : joosep@yester.eu
+  enable: true
+  title: Meie tiim
+  team_member:
+    - name: Jaanus Nestra
+      image: ./img/team/Jaanus-Nestra.jpg
+      email: jaanus@yester.eu
+      social:
+        - icon: ti-facebook
+          link: "#"
+        - icon: ti-linkedin
+          link: "#"
+        - icon: ti-email
+          link: "#"
+
+    - name: Ingrid Prinsthal
+      image: ./img/team/ingrid.jpg
+      email: ingrid@yester.eu
+
+    - name: Sirli Veermäe
+      image: ./img/team/sirli.jpg
+      email: sirli@yester.eu
+
+    - name: Eugene Zhukov
+      image: ./img/team/sirli.jpg
+      email: eugene@yester.eu
+
+    - name: Joosep Järve
+      image: ./img/team/sirli.jpg
+      email: joosep@yester.eu

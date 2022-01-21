@@ -1,61 +1,61 @@
 processInfo:
-  enable : true
-  title : | 
+  enable: true
+  title: |
     Kuidas
     \
     me seda 
     \
     teeme?
   subtitle: "protsessid efektiivsemaks"
-  content : |
+  content: |
     **Kõike, mida saab kirjeldada, saab yesterdada.** 
-    
+
     Esimese asjana on vaja läbi mõelda sinu ettevõtte protsessid, et nad oleksid lihtsad, läbimõeldud ja efektiivsed. Kui see on paigas, viiakse need yesteri platvormile. See tähendab, et kui protsess on kirjeldatud, siis saavad ettevõtte töötajad seda kohe ka kasutama hakata. Seega on yesteri platvorm sinu ettevõtte jaoks väga lihtsalt kohandatav ja kiiresti juurutatav!
-    
+
     Yester võimaldab kaasata kõiki ettevõtte töötajaid. Täpselt nii palju või vähe, kui antud protsess vajab. Näiteks on puhkuste protsessi kaasatud kõik ettevõtte töötajad, kliendikaebustega tegeleb aga kindel meeskond. Yester ühendab terve ettevõtte olenemata sellest, kus nad parasjagu töötavad."
-  
-  item1: 
+
+  item1:
     title: |
       Kirjelda 
       \
       ettevõtte
       \
       töövoog
-    icon: img/cog.svg
+    icon: ./img/cog.svg
 
-  item2: 
+  item2:
     title: |
       Määra,
       \
       mis info peab
       \
       töövos liikuma
-    icon: img/arrow-down.svg
-  
-  item3: 
+    icon: ./img/arrow-down.svg
+
+  item3:
     title: |
       Loo kasutajad
       \
       ja neile
       \
       vastavad rollid
-    icon: img/people.svg
+    icon: ./img/people.svg
 
-  item4: 
+  item4:
     title: |
       Tõlgime 
       \
       teistesse keeltesse
-    icon: img/arrow-swing.svg
+    icon: ./img/arrow-swing.svg
 
-  item5: 
+  item5:
     title: |
       Integreeri Yesteri
       \
       API enda 
       \
       süsteemiga
-    icon: img/rocket.svg
+    icon: ./img/rocket.svg
 
-  infoLogoSvg: img/infoLogo.svg
-  arrowDownSvg: img/divider-arrow-down.svg
+  infoLogoSvg: ./img/infoLogo.svg
+  arrowDownSvg: ./img/divider-arrow-down.svg

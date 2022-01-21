@@ -1,40 +1,44 @@
 processContainers:
-  enable : true
-  title : |
+  enable: true
+  title: |
     Näited
     \
     Protsessidest
   content: Siin on mõned näited, milliseid protsesse aitab yester efektiivsemaks muuta. Pane tähele, et paljusid neid ei peeta üldse protsessideks, vaid lihtsalt “osaks tööelust”. Nimetusest olenemata muudab yester need tõhusamaks ja kiiremaks.
-  container :
-    - title : Igapäevane tööelu
-      icon : /img/bag.svg
-      items :
-        - title : Puhkuste tegemine ja kinnitusring
-          description : I'm a funny description
-        - title : Haigustest teavitamine
-        - title : Lähetuste taotlused
-        - title : Kodukontorist teavitamine
-          description : I'm a second funny description
-        - title : Koolituse taotlused
-        - title : Kliendikaebuste haldamine
-        - title : IT probleemide haldus
-        - title : Ohutusaudit
-    - title : Finants
-      icon : /img/calculator.svg
-      items :
-        - title : E-arvete haldus
-        - title : Kuluaruannete tegemine ja kinnitamine
-        - title : Sõidupäevikute koostamine
-        - title : Ostutellimuste loomine ja kinnitamine
-    - title : Boarding
-      icon : /img/boarding.svg
-      items :
-        - title : OnBoarding ja OffBoarding
-        - title : Töövahendite taotlused
-        - title : Sõidupäevikute Süsteemiõiguste muudatused
-        - title : Töötaja isikuandmete edastamine ja muudatused
-    - title : Tööstus
-      icon : /img/helmet.svg
-      items :
-        - title : Süsteemide/seadmete halduse ja hoolduse register
-        - title : Protsessi juhtimine seadmete riketest kuni parandamiseni
+  container:
+    - title: Igapäevane tööelu
+      icon: /img/bag.svg
+      items:
+        - title: Puhkuste tegemine ja kinnitusring
+          description: I'm a funny description
+        - title: Haigustest teavitamine
+        - title: Lähetuste taotlused
+        - title: Kodukontorist teavitamine
+          description: I'm a second funny description
+        - title: Koolituse taotlused
+        - title: Kliendikaebuste haldamine
+        - title: IT probleemide haldus
+        - title: Ohotusaudit
+    - title: Finants
+      icon: /img/calculator.svg
+      items:
+        - title: E-arvete haldus
+        - title: Kuluaruannete tegemine ja kinnitamine
+          description: I'm a second funny description
+        - title: Sõidupäevikute koostamine
+        - title: Ostutellimuste loomine ja kinnitamine
+    - title: Boarding
+      icon: /img/boarding.svg
+      items:
+        - title: OnBoarding ja OffBoarding
+        - title: Töövahendite taotlused
+        - title: Sõidupäevikute Süsteemiõiguste muudatused
+          description: I'm a second funny description
+        - title: Töötaja isikuandmete edastamine ja muudatused
+    - title: Tööstus
+      icon: /img/helmet.svg
+      items:
+        - title: Süsteemide/seadmete halduse ja hoolduse register
+          description: I'm a second funny description
+        - title: Protsessi juhtimine seadmete riketest kuni parandamiseni
+          description: I'm a second funny description

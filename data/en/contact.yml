@@ -1,21 +1,20 @@
 contact:
-  enable : true
-  title : Võta meiega <br/>ühendust.
+  enable: true
+  title: Võta meiega <br/>ühendust.
   # Contact details
   contact_list:
-    - icon : ti-mobile
-      info : "+372 514 9993"
-      
-    - icon : ti-email 
-      info : "info@yester.eu"
+    - icon: ti-mobile
+      info: "+372 514 9993"
 
+    - icon: ti-email
+      info: "info@yester.eu"
 
   # Contact form
   contact_form:
-    enable : true
-    form_action : "#" #contact form works with https://formspree.io
-    name : "Your Name"
-    email : "Your Email"
-    subject : "Subject"
-    message : "Message"
-    submit : "Submit"
+    enable: true
+    form_action: "https://formspree.io/f/mgedopry"
+    name: "Your Name"
+    email: "Your Email"
+    subject: "Subject"
+    message: "Message"
+    submit: "Submit"
