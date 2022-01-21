@@ -10,7 +10,7 @@ processContainers:
       icon: /img/bag.svg
       items:
         - title: Puhkuste tegemine ja kinnitusring
-          description: I'm a funny description
+          description: Töötajad saavad teha enda puhkuse avaldusi ning vajadusel toimub kinnitusring. Kõik näevad puhkuste graafikut, enda puhkusesaldot ja on kursis, mis seisus nende puhkuseavaldus on. Juhid saavad luua mitmele inimesele korraga puhkuseid ning jälgida, kuna keegi puhkab. Töö lihtsustamiseks on võimalik puhkuseavaldusi ka meili pealt kinnitada
         - title: Haigustest teavitamine
         - title: Lähetuste taotlused
         - title: Kodukontorist teavitamine
