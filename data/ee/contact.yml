@@ -13,8 +13,8 @@ contact:
   contact_form:
     enable: true
     form_action: "https://formspree.io/f/mgedopry"
-    name: "Your Name"
-    email: "Your Email"
-    subject: "Subject"
-    message: "Message"
-    submit: "Submit"
+    name: "Teie nimi"
+    email: "Teie email"
+    subject: "Pealkiri"
+    message: "Sisu"
+    submit: "Saada"
