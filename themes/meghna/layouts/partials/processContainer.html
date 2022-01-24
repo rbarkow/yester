@@ -1,19 +1,12 @@
-{{ $data := index site.Data site.Language.Lang }} {{ if
-$data.processContainers.processContainers.enable }} {{ with
-$data.processContainers.processContainers }}
+{{ $data := index site.Data site.Language.Lang }} {{ if $data.processContainers.processContainers.enable }}
+{{ with $data.processContainers.processContainers }}
 <section class="pt-11 pb-11" id="processContainer">
   <div class="container position-relative">
     <div class="row pb-6">
       <div class="col-12 col-lg-6">
         <h1 class="d-flex justify-content-between">
           {{ .title | markdownify }}
-          <img
-            class="d-none d-lg-block"
-            src="/img/divider-arrow-sm.svg"
-            alt="Arrow right"
-            width="114"
-            height="99"
-          />
+          <img class="d-none d-lg-block" src="/img/divider-arrow-sm.svg" alt="Arrow right" width="114" height="99" />
         </h1>
       </div>
       <div class="col-12 col-lg-6 pt-4">
@@ -22,44 +15,20 @@ $data.processContainers.processContainers }}
     </div>
     <div class="row">
       <div class="col-12 col-lg-6">
-        {{ range $containerIndex, $el := .container}} {{if (modBool
-        $containerIndex 2)}}
+        {{ range $containerIndex, $el := .container}} {{if (modBool $containerIndex 2)}}
         <div class="card ListCard">
           <h4 class="ListCard__Title">
-            <img
-              class="ListCard__Title__Icon"
-              src="{{ .icon }}"
-              alt="Bag"
-              width="48"
-              height="48"
-            />
+            <img class="ListCard__Title__Icon" src="{{ .icon }}" alt="Bag" width="48" height="48" />
             {{ .title }}
           </h4>
           <ul class="ListCard__List">
             {{ range $i, $e := .items}} {{ if .title }}
             <li class="ListCard__List__Item">
               {{ if .description }}
-              <a
-                class="toggle collapsed"
-                role="button"
-                data-toggle="collapse"
-                href="#c{{$i}}{{$containerIndex}}"
-              >
+              <a class="toggle collapsed" role="button" data-toggle="collapse" href="#c{{$i}}{{$containerIndex}}">
                 {{ .title }}
-                <img
-                  src="/img/collaps1.svg"
-                  class="collapse--open"
-                  alt="Collapsable arrow"
-                  width="14"
-                  height="auto"
-                />
-                <img
-                  src="/img/collaps0.svg"
-                  class="collapse--close"
-                  alt="Collabsable cross"
-                  width="11"
-                  height="16"
-                />
+                <img src="/img/collaps1.svg" class="collapse--open" alt="Collapsable arrow" width="14" height="auto" />
+                <img src="/img/collaps0.svg" class="collapse--close" alt="Collabsable cross" width="11" height="16" />
               </a>
               {{ else }}
               <span> {{ .title }} </span>
@@ -76,44 +45,20 @@ $data.processContainers.processContainers }}
       </div>
 
       <div class="col-12 col-lg-6">
-        {{ range $containerIndexOdd, $el := .container}} {{if not (modBool
-        $containerIndexOdd 2)}}
+        {{ range $containerIndexOdd, $el := .container}} {{if not (modBool $containerIndexOdd 2)}}
         <div class="card ListCard">
           <h4 class="ListCard__Title">
-            <img
-              class="ListCard__Title__Icon"
-              src="{{ .icon }}"
-              alt="Bag"
-              width="48"
-              height="48"
-            />
+            <img class="ListCard__Title__Icon" src="{{ .icon }}" alt="Bag" width="48" height="48" />
             {{ .title }}
           </h4>
           <ul class="ListCard__List">
             {{ range $i, $e := .items}} {{ if .title }}
             <li class="ListCard__List__Item">
               {{ if .description }}
-              <a
-                class="toggle collapsed"
-                role="button"
-                data-toggle="collapse"
-                href="#c{{$i}}{{$containerIndexOdd}}"
-              >
+              <a class="toggle collapsed" role="button" data-toggle="collapse" href="#c{{$i}}{{$containerIndexOdd}}">
                 {{ .title }}
-                <img
-                  src="/img/collaps1.svg"
-                  class="collapse--open"
-                  alt="Collapsable arrow"
-                  width="14"
-                  height="auto"
-                />
-                <img
-                  src="/img/collaps0.svg"
-                  class="collapse--close"
-                  alt="Collabsable cross"
-                  width="11"
-                  height="16"
-                />
+                <img src="/img/collaps1.svg" class="collapse--open" alt="Collapsable arrow" width="14" height="auto" />
+                <img src="/img/collaps0.svg" class="collapse--close" alt="Collabsable cross" width="11" height="16" />
               </a>
               {{ else }}
               <span> {{ .title }} </span>
@@ -129,13 +74,7 @@ $data.processContainers.processContainers }}
         {{ end }} {{ end }}
       </div>
     </div>
-    <img
-      class="Line Line--1"
-      src="/img/line1.svg"
-      alt="Arrow down"
-      width="4"
-      height="auto"
-    />
+    <img class="Line Line--1" src="/img/line1.svg" alt="Arrow down" width="4" height="auto" />
   </div>
 </section>
 {{ end }} {{ end }}

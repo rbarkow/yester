@@ -10,7 +10,8 @@
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-transparent">I Accept</span>
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button"
+		class="btn btn-transparent">I Accept</span>
 </div>
 <script>
 	(function ($) {
@@ -21,10 +22,10 @@
 			cookieButton.onclick = function () {
 				Cookies.set('cookie-box', true, {
 					expires: {{ site.Params.cookies.expire_days }}
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
+		});
+		cookieBox.classList.add('cookie-box-hide');
+	};
 		}
-	})(jQuery);
+	}) (jQuery);
 </script>
 {{ end }}
