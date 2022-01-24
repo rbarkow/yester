@@ -10,15 +10,19 @@ processInfo:
   content: |
     **Kõike, mida saab kirjeldada, saab yesterdada.** 
 
-    Esimese asjana on vaja läbi mõelda sinu ettevõtte protsessid, et nad oleksid lihtsad, läbimõeldud ja efektiivsed. Kui see on paigas, viiakse need yesteri platvormile. See tähendab, et kui protsess on kirjeldatud, siis saavad ettevõtte töötajad seda kohe ka kasutama hakata. Seega on yesteri platvorm sinu ettevõtte jaoks väga lihtsalt kohandatav ja kiiresti juurutatav!
-
-    Yester võimaldab kaasata kõiki ettevõtte töötajaid. Täpselt nii palju või vähe, kui antud protsess vajab. Näiteks on puhkuste protsessi kaasatud kõik ettevõtte töötajad, kliendikaebustega tegeleb aga kindel meeskond. Yester ühendab terve ettevõtte olenemata sellest, kus nad parasjagu töötavad."
+    Esimese asjana on vaja läbi mõelda töövoog, mida hakatakse parendama. Ta peab olema lihtne, läbimõeldud ja efektiivne. 
+    
+    Seejärel paneme paika info, mis selles töövoos liikuma hakkab. Info võib tulla läbi vormide, mis sisestatakse kasutajate poolt või ka näiteks mõnest teisest süsteemist. Siinkohal tuleb ka märkida, kas kasutajatele saadetakse töövoo osades teavitusi.
+    
+    Kolmanda sammuna paneme paika, kes on töövoo kasutajad, millised on nende õigused ning vajadusel ka kinnitamise hierarhia. Hierarhia võib tulla näiteks ka ettevõtte hierarhiast.
+    
+    Ettevõttes võib olla inimesi, kes soovivad Yesterit kasutada näiteks inglise, soome, läti või vene keeles. Yesteris saab töövood tõlkida kõikidesse soovitud keeltesse.
+    
+    Töövoog ei pea algama Yesteris ja siin ka lõppema. Integratsioonid tootmistarkvarade, palgaarvestustarkvara või kolmandate süsteemidega on Yesteri jaoks loomulikud.
 
   item1:
     title: |
       Kirjelda 
-      \
-      ettevõtte
       \
       töövoog
     icon: /img/cog.svg
@@ -29,7 +33,7 @@ processInfo:
       \
       mis info peab
       \
-      töövos liikuma
+      töövoos liikuma
     icon: /img/arrow-down.svg
 
   item3:
@@ -43,7 +47,7 @@ processInfo:
 
   item4:
     title: |
-      Tõlgime 
+      Tõlgi 
       \
       teistesse keeltesse
     icon: /img/arrow-swing.svg
