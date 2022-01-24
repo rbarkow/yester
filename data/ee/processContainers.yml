@@ -7,7 +7,7 @@ processContainers:
   content: Siin on mõned näited, milliseid protsesse aitab yester efektiivsemaks muuta. Pane tähele, et paljusid neid ei peeta üldse protsessideks, vaid lihtsalt “osaks tööelust”. Nimetusest olenemata muudab yester need tõhusamaks ja kiiremaks.
   container:
     - title: Töötajad
-      icon: /img/bag.svg
+      icon: img/bag.svg
       items:
         - title: Puhkuste avaldused ja kinnitusring
           description: Töötajad saavad teha enda puhkuse avaldusi ning toimub kinnitusring. Kõigil on ligipääs enda puhkusesaldole, mineviku puhkustele ning nähakse ka kes on juba avalduse kinnitanud ja kelle käes see hetkel on. Kõik näevad ettevõtte puhkuste graafikut ning saavad teavituse peatsest puhkuse algusest või ka muudest enda puhkustega seotud tegevustest. Juhid saavad puhkuseid luua mitmele inimesele korraga ning töö lihtsustamiseks on võimalik puhkuseavaldusi ka meili pealt kinnitada. Andmete automaatseks liikumiseks olema loonud integratsioone erinevate palgaarvestustarkvaradega sh. Merit Palga, Taavi Plaga, Pilvepalgaga.
@@ -30,7 +30,7 @@ processContainers:
         - title: Töötaja isikuandmete edastamine ja muudatused
           description: Kas muutub perekonnaseis, sünnivad lapsed või vahetub pangakonto, kõiki neid muudatusi on võimalik lihtsasti hallata. Yesteris saab töötaja teavitada muutustest ning muutused jõuavad õige inimeseni.
     - title: Igapäevane tööelu
-      icon: /img/calculator.svg
+      icon: img/calculator.svg
       items:
         - title: Kliendikaebuste haldamine
           description: Kliendikaebused on võimalus ettevõtte arenguks. Kogu kokku klientide ettepanekud, teavita vastavaid inimesi ning leia probleemi juurpõhjus ja lahendus, mis hoiab kliendi rahulolevana. Yester aitab seda saavutada luues sobiva töövoo ning andes ülevaate kliendikaebuse hetkeseisust.
@@ -41,11 +41,11 @@ processContainers:
         - title: Ostutellimuste loomine ja kinnitamine
           description: Loo ostutellimus vajalike kaupade või teenuste ostuks. Kinnitatud ostutellimuse alusel on võimalik kaup või teenus ära tellida.
     - title: Ütle Sina meile
-      icon: /img/boarding.svg
+      icon: img/boarding.svg
       items:
         - title: Mis protsess valmistab pidevalt peavalu ja vajab korda tegemist? Yester on loodud sinu ettevõtte töövoogude lihtsustamiseks.
     - title: Tööstus
-      icon: /img/helmet.svg
+      icon: img/helmet.svg
       items:
         - title: Ohutusaudit
           description: Tagamaks ohutust töökohal aitab Yester läbi viia ohutusauditeid luues automaatse töövoo auditeerijatele auditeerimiskohustuse tekitamisest, auditi läbiviimiseks kuni probleemikohtade lahenduseni
