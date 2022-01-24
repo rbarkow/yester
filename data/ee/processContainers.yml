@@ -6,39 +6,50 @@ processContainers:
     Protsessidest
   content: Siin on mõned näited, milliseid protsesse aitab yester efektiivsemaks muuta. Pane tähele, et paljusid neid ei peeta üldse protsessideks, vaid lihtsalt “osaks tööelust”. Nimetusest olenemata muudab yester need tõhusamaks ja kiiremaks.
   container:
-    - title: Igapäevane tööelu
-      icon: /img/bag.svg
+    - title: Töötajad
+      icon: ./img/bag.svg
       items:
-        - title: Puhkuste tegemine ja kinnitusring
-          description: Töötajad saavad teha enda puhkuse avaldusi ning vajadusel toimub kinnitusring. Kõik näevad puhkuste graafikut, enda puhkusesaldot ja on kursis, mis seisus nende puhkuseavaldus on. Juhid saavad luua mitmele inimesele korraga puhkuseid ning jälgida, kuna keegi puhkab. Töö lihtsustamiseks on võimalik puhkuseavaldusi ka meili pealt kinnitada
+        - title: Puhkuste avaldused ja kinnitusring
+          description: Töötajad saavad teha enda puhkuse avaldusi ning toimub kinnitusring. Kõigil on ligipääs enda puhkusesaldole, mineviku puhkustele ning nähakse ka kes on juba avalduse kinnitanud ja kelle käes see hetkel on. Kõik näevad ettevõtte puhkuste graafikut ning saavad teavituse peatsest puhkuse algusest või ka muudest enda puhkustega seotud tegevustest. Juhid saavad puhkuseid luua mitmele inimesele korraga ning töö lihtsustamiseks on võimalik puhkuseavaldusi ka meili pealt kinnitada. Andmete automaatseks liikumiseks olema loonud integratsioone erinevate palgaarvestustarkvaradega sh. Merit Palga, Taavi Plaga, Pilvepalgaga.
         - title: Haigustest teavitamine
+          description: Töötaja saab anda teada, et ta on haigestunud. Kohe lähevad teavitused otsesele juhile või näiteks personaliosakonda. Töötaja saab ka hinnata, kas puudumine kestab päeva või rohkem ning see kajastatakse ka puudumiste graafikul. Hiljem on võimalik puudumise aega täpsustada.
         - title: Lähetuste taotlused
+          description: Võimalik on teha avaldus lähetusele minekuks, kulude aktsepteerimiseks või ka lihtsalt kolleegide teavitamiseks lähetusel olemisest. Ettevõtte kalendris on võimalik näha kes ja kuna kontorist eemal viibib.
         - title: Kodukontorist teavitamine
-          description: I'm a second funny description
+          description: Vältimaks asjatut inimeste otsimist kontoris on võimalik teavitada kolleege enda kodukontoris töötamisest. Kas teavitus toimub lihtsalt kalendrisse märke lisamisega või läheb tiimile ka teavitus, see on juba teie enda otsustada.
         - title: Koolituse taotlused
-        - title: Kliendikaebuste haldamine
-        - title: IT probleemide haldus
-        - title: Ohotusaudit
-    - title: Finants
-      icon: /img/calculator.svg
-      items:
-        - title: E-arvete haldus
-        - title: Kuluaruannete tegemine ja kinnitamine
-          description: I'm a second funny description
-        - title: Sõidupäevikute koostamine
-        - title: Ostutellimuste loomine ja kinnitamine
-    - title: Boarding
-      icon: /img/boarding.svg
-      items:
-        - title: OnBoarding ja OffBoarding
+          description: Soovitud koolitusele minekuks tee avaldus ja küsi nõusolek oma juhilt või näiteks personaliosakonnast. Ettevõtte kalender kajastab Sinu eemalviibimist
+        - title: OnBoarding
+          description: Millised on teie tegevused töötaja onboardimisel, et töötaja tunneb ennast esimesest päevast väärtustatuna? Onboardimine muutub Yesteri abil automatiseerides palju lihtsamaks. Telli uuele töötajale tööks vajalikud vahendid, õigused süsteemidele või hoonetele ja pane paika koolitused. Tellimused liiguvad vastutavale inimesele või osakonnale ning kõigil on ülevaade, kas kõik on uue tiimiliikme tulekuks valmis. 
+        - title: OffBoarding
+          description: Töötaja ettevõttest lahkumine on sama tähtis kui uue töötaja tulek. OffBoardingu protsessi digitaliseerimine aitab olla kindel, et lahkumisvestlus on peetud, töövahendid tööandjale tagastatud ning süsteemides õigused suletud.
         - title: Töövahendite taotlused
-        - title: Sõidupäevikute Süsteemiõiguste muudatused
-          description: I'm a second funny description
+          description: Töötajal võib olla vaja uusi jalanõusid, tööriideid või arvutit. Seda saab taotleda tema ise või näiteks otsene juht. Protsessi automatiseerides liigub vastav soov õigele inimesele või osakonda.
+        - title: Süsteemiõiguste muudatused
+          description: Vajaduste muutudes saab teha taotlusi süsteemiõiguste juurde andmiseks või peatamiseks. Õiguste muutmise kinnitusring tagab, et kellelegi ei anta või võeta õiguseid ära kogemata ning kõigil on ligipääsud, mis neil olema peavad.
         - title: Töötaja isikuandmete edastamine ja muudatused
-    - title: Tööstus
-      icon: /img/helmet.svg
+          description: Kas muutub perekonnaseis, sünnivad lapsed või vahetub pangakonto, kõiki neid muudatusi on võimalik lihtsasti hallata. Yesteris saab töötaja teavitada muutustest ning muutused jõuavad õige inimeseni.
+    - title: Igapäevane tööelu
+      icon: ./img/calculator.svg
       items:
-        - title: Süsteemide/seadmete halduse ja hoolduse register
-          description: I'm a second funny description
+        - title: Kliendikaebuste haldamine
+          description: Kliendikaebused on võimalus ettevõtte arenguks. Kogu kokku klientide ettepanekud, teavita vastavaid inimesi ning leia probleemi juurpõhjus ja lahendus, mis hoiab kliendi rahulolevana. Yester aitab seda saavutada luues sobiva töövoo ning andes ülevaate kliendikaebuse hetkeseisust.
+        - title: IT kasutajatugi
+          description: ITeavita IT tiimi ettepanekutest või probleemikohtadest. Kasutajad teavad, kes nende küsimusega tegeleb ja kuna võiks lahendust tulla
+        - title: Sõidupäevikute koostamine
+          description: Halda ettevõtte autode sõidupäevikuid või loo sõidupäevik isikliku autoga tehtud sõitude kompenseerimiseks. 
+        - title: Ostutellimuste loomine ja kinnitamine
+          description: Loo ostutellimus vajalike kaupade või teenuste ostuks. Kinnitatud ostutellimuse alusel on võimalik kaup või teenus ära tellida.
+    - title: Ütle Sina meile
+      icon: ./img/boarding.svg
+      items:
+        - title: Mis protsess valmistab pidevalt peavalu ja vajab korda tegemist? Yester on loodud sinu ettevõtte töövoogude lihtsustamiseks.
+    - title: Tööstus
+      icon: ./img/helmet.svg
+      items:
+        - title: Ohutusaudit
+          description: Tagamaks ohutust töökohal aitab Yester läbi viia ohutusauditeid luues automaatse töövoo auditeerijatele auditeerimiskohustuse tekitamisest, auditi läbiviimiseks kuni probleemikohtade lahenduseni
+        - title: Süsteemide/seadmete halduse ja hoolduse register 
+          description: Millised seadmed sinu ettevõttes on, kes nende eest vastutab ja kuna neid peab hooldama? Yester aitab automaatsete teavitustega sellel silma peal hoida.
         - title: Protsessi juhtimine seadmete riketest kuni parandamiseni
-          description: I'm a second funny description
+          description: Teata seadme rikkest ning saa vastus haldustiimist, kui kaua parandus aega võib võtta.
