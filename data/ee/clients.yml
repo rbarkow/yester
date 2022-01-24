@@ -6,13 +6,19 @@ clients:
       url: "https://glassolutions.ee/"
 
     - image: img/clients/Ekspress Meedia.png
+      url: "https://www.ekspressmeedia.ee/"
 
     - image: img/clients/Estiko Plastar.png
+      url: "https://plastar.ee/"
 
     - image: img/clients/evocon-logo.png
+      url: "https://evocon.com/"
 
     - image: img/clients/Klarvinduer.png
+      url: "https://klarvinduer.ee/"
 
     - image: img/clients/Saint-Gobain-Logo.wine.png
+      url: "https://www.sekurit.ee/"
 
     - image: img/clients/Weber.png
+      url: "https://www.ee.weber/"
