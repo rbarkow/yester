@@ -6,25 +6,40 @@ team:
       image: ./img/team/Jaanus-Nestra.jpg
       email: jaanus@yester.eu
       social:
-        - icon: ti-facebook
-          link: "#"
         - icon: ti-linkedin
-          link: "#"
+          link: "https://www.linkedin.com/in/jaanus-nestra-08254382/"
         - icon: ti-email
-          link: "#"
+          link: "jaanus@yester.eu"
 
     - name: Ingrid Prinsthal
       image: ./img/team/ingrid.jpg
       email: ingrid@yester.eu
-
+      social:
+        - icon: ti-linkedin
+          link: "https://www.linkedin.com/in/ingrid-prinsthal-0948508b/"
+        - icon: ti-email
+          link: "ingrid@yester.eu"
     - name: Sirli Veermäe
       image: ./img/team/sirli.jpg
       email: sirli@yester.eu
-
+      social:
+        - icon: ti-linkedin
+          link: "https://www.linkedin.com/in/sirli-veermae/"
+        - icon: ti-email
+          link: "sirli@yester.eu"
     - name: Eugene Zhukov
       image: ./img/team/sirli.jpg
       email: eugene@yester.eu
-
+      social:
+        - icon: ti-linkedin
+          link: "https://www.linkedin.com/in/eugenezhukov/"
+        - icon: ti-email
+          link: "eugene@yester.eu"
     - name: Joosep Järve
       image: ./img/team/sirli.jpg
       email: joosep@yester.eu
+      social:
+        - icon: ti-linkedin
+          link: "https://www.linkedin.com/in/joosep-j%C3%A4rve-564107116/"
+        - icon: ti-email
+          link: "joosep@yester.eu"
