@@ -1,50 +1,50 @@
 {{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.team.team.enable }}
-  {{ with $data.team.team }}
-  <section class="pt-11 pb-11 bg--grey"  id="team">
-    <div class="container d-flex">
-      <div class="row">
+{{ with $data.team.team }}
+<section class="pt-11 pb-11 bg--grey" id="team">
+  <div class="container d-flex">
+    <div class="row">
       <div class="col-12 pb-2">
-        
+
         <h1>
           {{ .title | markdownify }}
         </h1>
         <img class="Line Line--3" src="/img/divider-arrow-down-sm.svg" alt="Arrow down" width="25.97" height="auto">
       </div>
-  
+
       {{ range .team_member}}
-        <div class="col-12 col-lg mb-5">
-          <div class="card Usercard">
-            <div class="card-body d-flex flex-column align-items-center">
-              <div class="Usercard__Image">
-                <img class="img-fluid lozad" src="{{ .image | absURL }}" alt="{{ .name }}">
-                {{ if .social }}
-                <div class="Usercard__Image__Mask">
-                    <ul class="list-inline mb-0">
-                      {{ range .social }}
-                        <li class="list-inline-item">
-                          <a href="{{ .link | safeURL }}" target="_blank" rel="nofollow"><i class="{{ .icon }}"></i></a>
-                        </li>
-                      {{ end }}
-                    </ul>
-                </div>
+      <div class="col-12 col-lg mb-5">
+        <div class="card Usercard">
+          <div class="card-body d-flex flex-column align-items-center">
+            <div class="Usercard__Image">
+              <img class="img-fluid lozad" src="{{ .image | safeURL }}" alt="{{ .name }}">
+              {{ if .social }}
+              <div class="Usercard__Image__Mask">
+                <ul class="list-inline mb-0">
+                  {{ range .social }}
+                  <li class="list-inline-item">
+                    <a href="{{ .link | safeURL }}" target="_blank" rel="nofollow"><i class="{{ .icon }}"></i></a>
+                  </li>
+                  {{ end }}
+                </ul>
+              </div>
               {{ end }}
 
             </div>
 
-              <p class="card-text">
-                <h5 class="text-center">
-                  {{ .name }}
-                </h5>
-                {{ .email }}
-              </p>
-            </div>
+            <p class="card-text">
+            <h5 class="text-center">
+              {{ .name }}
+            </h5>
+            {{ .email }}
+            </p>
           </div>
         </div>
-      {{ end }}
       </div>
+      {{ end }}
     </div>
-  </section>
-  {{ end }}
+  </div>
+</section>
+{{ end }}
 {{ end }}

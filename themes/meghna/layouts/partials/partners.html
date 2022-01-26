@@ -16,7 +16,7 @@
             <a href="{{ .url | safeURL }}" target="_blank" rel="nofollow, sponsored">
               {{ end }}
               <div class="Clients__Item">
-                <img class="img-fluid lozad" src="{{ .image | absURL }}" alt="{{ .name }}" />
+                <img class="img-fluid lozad" src="{{ .image | safeURL }}" alt="{{ .name }}" />
               </div>
               {{ if .url }}
             </a>
