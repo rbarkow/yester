@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://rbarkow.github.io/yester/ee/categories/</loc>
     <xhtml:link
@@ -14,9 +13,7 @@
                 hreflang="ee"
                 href="https://rbarkow.github.io/yester/ee/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rbarkow.github.io/yester/ee/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,9 +25,7 @@
                 hreflang="ee"
                 href="https://rbarkow.github.io/yester/ee/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rbarkow.github.io/yester/ee/</loc>
     <xhtml:link
                 rel="alternate"
@@ -43,5 +38,4 @@
                 href="https://rbarkow.github.io/yester/ee/"
                 />
   </url>
-  
 </urlset>
