@@ -2,17 +2,17 @@ clients:
   enable: true
   title: Kliendid
   items:
-    - image: ./img/clients/Baltiklaas.jpg
+    - image: /img/clients/Baltiklaas.jpg
       url: "https://www.test.de"
 
-    - image: ./img/clients/Ekspress Meedia.png
+    - image: /img/clients/Ekspress Meedia.png
 
-    - image: ./img/clients/Estiko Plastar.png
+    - image: /img/clients/Estiko Plastar.png
 
-    - image: ./img/clients/evocon-logo.png
+    - image: /img/clients/evocon-logo.png
 
-    - image: ./img/clients/Klarvinduer.png
+    - image: /img/clients/Klarvinduer.png
 
-    - image: ./img/clients/Saint-Gobain-Logo.wine.png
+    - image: /img/clients/Saint-Gobain-Logo.wine.png
 
-    - image: ./img/clients/Weber.png
+    - image: /img/clients/Weber.png

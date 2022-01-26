@@ -2,9 +2,11 @@ partners:
   enable: true
   title: Partnerid
   items:
-    - image: ./img/partners/Merit Palk.svg
+    - image: /img/partners/Merit Palk.svg
       url: "https://palk.merit.ee/Authent/Login"
 
-    - image: ./img/partners/ms-dynamics.png
+    - image: /img/partners/ms-dynamics.png
 
-    - image: ./img/partners/Taavi Palk.svg
+    - image: /img/partners/Taavi Palk.svg
+
+    - image: /img/partners/eas-ee.jpg

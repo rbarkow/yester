@@ -21,7 +21,7 @@ processInfo:
       ettevõtte
       \
       töövoog
-    icon: ./img/cog.svg
+    icon: /img/cog.svg
 
   item2:
     title: |
@@ -30,7 +30,7 @@ processInfo:
       mis info peab
       \
       töövos liikuma
-    icon: ./img/arrow-down.svg
+    icon: /img/arrow-down.svg
 
   item3:
     title: |
@@ -39,14 +39,14 @@ processInfo:
       ja neile
       \
       vastavad rollid
-    icon: ./img/people.svg
+    icon: /img/people.svg
 
   item4:
     title: |
       Tõlgime 
       \
       teistesse keeltesse
-    icon: ./img/arrow-swing.svg
+    icon: /img/arrow-swing.svg
 
   item5:
     title: |
@@ -55,7 +55,7 @@ processInfo:
       API enda 
       \
       süsteemiga
-    icon: ./img/rocket.svg
+    icon: /img/rocket.svg
 
-  infoLogoSvg: ./img/infoLogo.svg
-  arrowDownSvg: ./img/divider-arrow-down.svg
+  infoLogoSvg: /img/infoLogo.svg
+  arrowDownSvg: /img/divider-arrow-down.svg
