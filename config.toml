@@ -4,14 +4,6 @@ title = "YESTER."
 theme = "meghna"
 publishDir = "docs"
 canonifyURLs = true
-# post pagination
-paginate = "6"
-# post excerpt
-summaryLength = "15"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = []
 
 ############################# Plugins ##########################
 # css plugins
@@ -108,7 +100,6 @@ weight = 1
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
 author = "Themefisher"
 # Google Analytics
 google_analytics_id = "" # Your ID
@@ -139,6 +130,8 @@ link = "mailto:info@yester.eu"
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
+description = "Yester on platvorm, kus ettevõtted saavad luua ja jooksutada oma igapäevaseid protsesse. Yester on nagu lego, kus saab protsesse kohandada täpselt vastavalt oma ettevõtte vajadustele. Puhkusetaotlusest kliendikaebusteni, töötajate onboardingust kuni seadmete hoolduse registrini, piire ei ole. Mis protsessid on sinul vaja digitaalseks viia?"
+title = "Yester - Platvorm sinu ettevõtte protsesside digitaalseks juhtimiseks"
 weight = 1
 home = "Home"
 copyright = "YESTER. &copy; 2022"
@@ -148,6 +141,8 @@ copyright = "YESTER. &copy; 2022"
 languageName = "EE"
 languageCode = "ee-EE"
 contentDir = "content/estonian"
+description = "Yester on platvorm, kus ettevõtted saavad luua ja jooksutada oma igapäevaseid protsesse. Yester on nagu lego, kus saab protsesse kohandada täpselt vastavalt oma ettevõtte vajadustele. Puhkusetaotlusest kliendikaebusteni, töötajate onboardingust kuni seadmete hoolduse registrini, piire ei ole. Mis protsessid on sinul vaja digitaalseks viia?"
+title = "Yester - Platvorm sinu ettevõtte protsesside digitaalseks juhtimiseks"
 weight = 2
 home = "Home"
 copyright = "YESTER. &copy; 2022"
