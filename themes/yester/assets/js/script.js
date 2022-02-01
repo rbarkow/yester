@@ -31,6 +31,11 @@ jQuery(function ($) {
 
 	var html_body = $('html, body');
 	$('nav a, .page-scroll').on('click', function () { //use page-scroll class in any HTML tag for scrolling
+		const mobileNav = document.getElementById('js_mobileNav')
+		const button = document.getElementById('js_toggleNav')
+		mobileNav.classList.remove('Nav__Mobile--active');
+		button.classList.remove('open');
+
 		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
