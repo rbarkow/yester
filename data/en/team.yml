@@ -1,6 +1,6 @@
 team:
   enable: true
-  title: Meie tiim
+  title: Our team
   team_member:
     - name: Jaanus Nestra
       image: /img/team/Jaanus-Nestra.jpg
