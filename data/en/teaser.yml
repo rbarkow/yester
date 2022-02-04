@@ -1,7 +1,7 @@
 teaser:
   enable: true
-  title: YESTER Protsessid
+  title: YESTER Workflow
   content: |
-    Yesteriga paned ettevõtte protsessid sujuvamalt tööle ning väljend **“Yes it’s done”** muutub üha igapäevasemaks.
-  cta: Ütle meile, mis protsessi on sinul vaja yesterdada!
+    With Yester your everyday workflows will be seamless and **“Yes it’s done”** will be common frase.
+  cta: Tell us what workflow you need to yester!
   image: /img/glass.svg
