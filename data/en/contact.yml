@@ -1,6 +1,6 @@
 contact:
   enable: true
-  title: Võta meiega <br/>ühendust.
+  title: Contact us <br/>
   # Contact details
   contact_list:
     - icon: ti-mobile
