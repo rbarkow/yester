@@ -36,7 +36,7 @@ team:
         - icon: ti-email
           link: "eugene@yester.eu"
     - name: Joosep Järve
-      image: /img/team/sirli.jpg
+      image: /img/team/joosep.jpg
       email: joosep@yester.eu
       social:
         - icon: ti-linkedin
