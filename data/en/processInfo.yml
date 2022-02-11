@@ -1,64 +1,68 @@
 processInfo:
   enable: true
   title: |
-    Kuidas
+    How do
     \
-    me seda 
+    we
     \
-    teeme?
+    do it?
   subtitle: "protsessid efektiivsemaks"
   content: |
-    **Kõike, mida saab kirjeldada, saab yesterdada.** 
+    **Everything that can be described can be yestered.** 
 
-    Esimese asjana on vaja läbi mõelda töövoog, mida hakatakse parendama. Ta peab olema lihtne, läbimõeldud ja efektiivne. 
+    Start with the workflow you wish to improve. Think it through so it would be simple and without "waste". 
     
-    Seejärel paneme paika info, mis selles töövoos liikuma hakkab. Info võib tulla läbi vormide, mis sisestatakse kasutajate poolt või ka näiteks mõnest teisest süsteemist. Siinkohal tuleb ka märkida, kas kasutajatele saadetakse töövoo osades teavitusi.
+    What information needs to flow in the process? Data could come from users who input it through forms or from other software. Also add all notifications that need to be delivered to uses in different workflow stages.
     
-    Kolmanda sammuna paneme paika, kes on töövoo kasutajad, millised on nende õigused ning vajadusel ka kinnitamise hierarhia. Hierarhia võib tulla näiteks ka ettevõtte hierarhiast.
+    Think of the users who would use the workflow, what are their user roles and approval route. The route could come from company hierarchy or you could create unique route using groups. 
     
-    Ettevõttes võib olla inimesi, kes soovivad Yesterit kasutada näiteks inglise, soome, läti või vene keeles. Yesteris saab töövood tõlkida kõikidesse soovitud keeltesse.
+    What would be the languages users would be most comfortable with? In Yester you can translate processes to different languages. 
     
-    Töövoog ei pea algama Yesteris ja siin ka lõppema. Integratsioonid tootmistarkvarade, palgaarvestustarkvara või kolmandate süsteemidega on Yesteri jaoks loomulikud.
+    It is usual that process do not start or end in Yester. Think of the integrations needed and let’s make it happen.
 
   item1:
     title: |
-      Kirjelda 
+      Describe 
       \
-      töövoog
+      the workflow
     icon: /img/cog.svg
 
   item2:
     title: |
-      Määra,
+      Determine,
       \
-      mis info peab
+      what data
       \
-      töövoos liikuma
+      should flow
+      \
+      in the process
     icon: /img/arrow-down.svg
 
   item3:
     title: |
-      Loo kasutajad
+      Add users
       \
-      ja neile
+      and their
       \
-      vastavad rollid
+      roles
     icon: /img/people.svg
 
   item4:
     title: |
-      Tõlgi 
+      Translate 
       \
-      teistesse keeltesse
+      into other
+      \
+      languages
     icon: /img/arrow-swing.svg
 
   item5:
     title: |
-      Integreeri Yesteri
+      Integrate Yester
       \
-      API enda 
+      API with 
       \
-      süsteemiga
+      other software
     icon: /img/rocket.svg
 
   infoLogoSvg: /img/infoLogo.svg
