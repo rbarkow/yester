@@ -1,9 +1,9 @@
 platform:
   enable : true
   title : | 
-    Tööriist sinu ettevõtte
+    Tool to digitally manage
     \
-    **protsesside digitaalseks juhtimiseks**
+    **your company everyday workflows**
   subtitle: "protsessid efektiivsemaks"
-  content : "**Yester** on tööriist, millega ettevõtted saavad luua ja jooksutada oma igapäevaseid protsesse. See on nagu lego, kus saab protsesse kohandada täpselt vastavalt oma ettevõtte vajadustele."
+  content : "**Yester** is a tool that helps you to create and manage your everyday processes. It is like a lego, where you can create workflows unique to your company or choose one from our library."
   ctaProtsess: "Yesteri protsess"
