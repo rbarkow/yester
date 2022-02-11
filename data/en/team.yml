@@ -27,14 +27,6 @@ team:
           link: "https://www.linkedin.com/in/sirli-veermae/"
         - icon: ti-email
           link: "sirli@yester.eu"
-    - name: Eugene Zhukov
-      image: /img/team/sirli.jpg
-      email: eugene@yester.eu
-      social:
-        - icon: ti-linkedin
-          link: "https://www.linkedin.com/in/eugenezhukov/"
-        - icon: ti-email
-          link: "eugene@yester.eu"
     - name: Joosep Järve
       image: /img/team/joosep.jpg
       email: joosep@yester.eu
