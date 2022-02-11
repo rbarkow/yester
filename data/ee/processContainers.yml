@@ -3,8 +3,8 @@ processContainers:
   title: |
     Näited
     \
-    Protsessidest
-  content: Siin on mõned näited, milliseid protsesse aitab yester efektiivsemaks muuta. Pane tähele, et paljusid neid ei peeta üldse protsessideks, vaid lihtsalt “osaks tööelust”. Nimetusest olenemata muudab yester need tõhusamaks ja kiiremaks.
+    Töövoogudest
+  content: Siin on mõned näited, milliseid töövooge aitab yester efektiivsemaks muuta. Yester aitab lahendada teie kitsaskoha just seal, kus seda kõige rohkem vajate. Kui te ei leia endale näidetest sobivat, saab yesteris luua ka täiesti teie unikaalse lahenduse.
   container:
     - title: Töötajad
       icon: /img/bag.svg
@@ -35,7 +35,7 @@ processContainers:
         - title: Kliendikaebuste haldamine
           description: Kliendikaebused on võimalus ettevõtte arenguks. Kogu kokku klientide ettepanekud, teavita vastavaid inimesi ning leia probleemi juurpõhjus ja lahendus, mis hoiab kliendi rahulolevana. Yester aitab seda saavutada luues sobiva töövoo ning andes ülevaate kliendikaebuse hetkeseisust.
         - title: IT kasutajatugi
-          description: ITeavita IT tiimi ettepanekutest või probleemikohtadest. Kasutajad teavad, kes nende küsimusega tegeleb ja kuna võiks lahendust tulla
+          description: Teavita IT tiimi ettepanekutest või probleemikohtadest. Kasutajad teavad, kes nende küsimusega tegeleb ja kuna võiks lahendust tulla
         - title: Sõidupäevikute koostamine
           description: Halda ettevõtte autode sõidupäevikuid või loo sõidupäevik isikliku autoga tehtud sõitude kompenseerimiseks. 
         - title: Ostutellimuste loomine ja kinnitamine
