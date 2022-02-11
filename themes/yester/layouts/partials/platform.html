@@ -1,35 +1,35 @@
 {{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.platform.platform.enable }}
-	{{ with $data.platform.platform }}
-	
-		<div class="container">
-			<div class="row pt-md-2">
-				<div class="col-12 col-lg-6">
-					<h1>
-						{{ .title | markdownify }}
-					</h1>
-					<img class="d-lg-none" src="/img/workflow.svg" alt="YESTER Workflow" width="100%" height="auto" />
+{{ with $data.platform.platform }}
 
-					<img class="Line Line--0" src="/img/line0.svg" alt="Line vertical" width="25.97" height="auto" />
+<div class="container">
+	<div class="row pt-md-2">
+		<div class="col-12 col-lg-6">
+			<h1>
+				{{ .title | markdownify }}
+			</h1>
+			<img class="d-lg-none" src="/img/workflow.svg" alt="YESTER Workflow" width="100%" height="auto" />
 
-					<p>
-						{{ .content | markdownify }} <br/>
-					</p>
-					<a class="page-scroll" href="#processContainer">
-						<span class="Button Button__Protsess">{{ .ctaProtsess | markdownify }}</span>
-						<span class="Button Button__Protsess__Arrow">
-							<img src="/img/polygon1.svg" alt="Button polygon arrow" width="25" height="auto"  />
-						</span>
-					</a>
-					<img class="Line Line--1" src="/img/line1.svg" alt="Arrow down" width="4" height="auto" />
-				</div>
-				<div class="col-12 col-lg-6 d-none d-lg-block">
-					<img src="/img/workflow.svg" alt="YESTER Workflow" width="100%" height="auto" />
-				</div>
-			</div>
+			<img class="Line Line--0" src="/img/line0.svg" alt="Line vertical" width="25.97" height="auto" />
 
-			
+			<p>
+				{{ .content | markdownify }} <br />
+			</p>
+			<a class="page-scroll" href="#contact">
+				<span class="Button Button__Protsess">{{ .ctaProtsess | markdownify }}</span>
+				<span class="Button Button__Protsess__Arrow">
+					<img src="/img/polygon1.svg" alt="Button polygon arrow" width="25" height="auto" />
+				</span>
+			</a>
+			<img class="Line Line--1" src="/img/line1.svg" alt="Arrow down" width="4" height="auto" />
 		</div>
-	{{ end }}
+		<div class="col-12 col-lg-6 d-none d-lg-block">
+			<img src="/img/workflow.svg" alt="YESTER Workflow" width="100%" height="auto" />
+		</div>
+	</div>
+
+
+</div>
+{{ end }}
 {{ end }}
