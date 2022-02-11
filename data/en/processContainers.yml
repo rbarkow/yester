@@ -1,55 +1,55 @@
 processContainers:
   enable: true
   title: |
-    Näited
+    Examples of
     \
-    Protsessidest
-  content: Siin on mõned näited, milliseid protsesse aitab yester efektiivsemaks muuta. Pane tähele, et paljusid neid ei peeta üldse protsessideks, vaid lihtsalt “osaks tööelust”. Nimetusest olenemata muudab yester need tõhusamaks ja kiiremaks.
+    Workflows
+  content: Here are some examples of processes Yester can help improve. Note that many of them are not considered processes at all, but simply "part of working life". Whatever the name, Yester makes them more efficient and faster. 
   container:
-    - title: Töötajad
+    - title: Personnel
       icon: /img/bag.svg
       items:
-        - title: Puhkuste avaldused ja kinnitusring
-          description: Töötajad saavad teha enda puhkuse avaldusi ning toimub kinnitusring. Kõigil on ligipääs enda puhkusesaldole, mineviku puhkustele ning nähakse ka kes on juba avalduse kinnitanud ja kelle käes see hetkel on. Kõik näevad ettevõtte puhkuste graafikut ning saavad teavituse peatsest puhkuse algusest või ka muudest enda puhkustega seotud tegevustest. Juhid saavad puhkuseid luua mitmele inimesele korraga ning töö lihtsustamiseks on võimalik puhkuseavaldusi ka meili pealt kinnitada. Andmete automaatseks liikumiseks olema loonud integratsioone erinevate palgaarvestustarkvaradega sh. Merit Palga, Taavi Plaga, Pilvepalgaga.
-        - title: Haigustest teavitamine
-          description: Töötaja saab anda teada, et ta on haigestunud. Kohe lähevad teavitused otsesele juhile või näiteks personaliosakonda. Töötaja saab ka hinnata, kas puudumine kestab päeva või rohkem ning see kajastatakse ka puudumiste graafikul. Hiljem on võimalik puudumise aega täpsustada.
-        - title: Lähetuste taotlused
-          description: Võimalik on teha avaldus lähetusele minekuks, kulude aktsepteerimiseks või ka lihtsalt kolleegide teavitamiseks lähetusel olemisest. Ettevõtte kalendris on võimalik näha kes ja kuna kontorist eemal viibib.
-        - title: Kodukontorist teavitamine
-          description: Vältimaks asjatut inimeste otsimist kontoris on võimalik teavitada kolleege enda kodukontoris töötamisest. Kas teavitus toimub lihtsalt kalendrisse märke lisamisega või läheb tiimile ka teavitus, see on juba teie enda otsustada.
-        - title: Koolituse taotlused
-          description: Soovitud koolitusele minekuks tee avaldus ja küsi nõusolek oma juhilt või näiteks personaliosakonnast. Ettevõtte kalender kajastab Sinu eemalviibimist
+        - title: Vacation leave applications
+          description: Create a vacation application followed by approval based on company structure. There is access to vacation balances, previous vacation applications and current state of ongoing applications. Everyone can see the company's holiday schedule and receive information about the upcoming holiday or other activities related to their holiday. Managers can create holidays for several people at once, and to simplify the work, it is also possible to confirm holiday applications by e-mail. For automatic data flow it is possible to integrate Yester with various payroll software, incl. Merit Palk, Taavi Palk and Pilvepalk.  
+        - title: Sick leave notification
+          description: Notify your team that you are sick. Everyone will see from the calendar that you are not working, and notifications go directly to your manager. When you are feeling well, you can end your sick leave. 
+        - title: Business trip application
+          description: It is possible to make an application to go on a business trip, to issue expenses or simply to inform colleagues that you are away from the office. In the company calendar it is possible to see who and at what period is away from the office.
+        - title: Home Office notification
+          description: To avoid unnecessary searching for people in the office, it is possible to inform colleagues about working in your home office. It is up to you to decide whether the notification is simply by adding absence to the calendar or whether the team will receive, for example, an email.
+        - title: Training applications
+          description: To go to the desired training, make an application and ask your manager or, for example, the human resources manager. The company's calendar will reflect your absence.
         - title: OnBoarding
-          description: Millised on teie tegevused töötaja onboardimisel, et töötaja tunneb ennast esimesest päevast väärtustatuna? Onboardimine muutub Yesteri abil automatiseerides palju lihtsamaks. Telli uuele töötajale tööks vajalikud vahendid, õigused süsteemidele või hoonetele ja pane paika koolitused. Tellimused liiguvad vastutavale inimesele või osakonnale ning kõigil on ülevaade, kas kõik on uue tiimiliikme tulekuks valmis. 
+          description:  When your new colleagues are joining the team, you wish they would feel welcome and valued from day one. With Yester you can make onboarding more simple, automated and have overview of the entire process. It is possible to order all the equipment they need, rights to different systems, buildings or set up trainings. It all happens through workflow that can already be set before so that all equipment or access rights needed from IT go to people responsible from IT department, training request to person responsible for certain training etc.
         - title: OffBoarding
-          description: Töötaja ettevõttest lahkumine on sama tähtis kui uue töötaja tulek. OffBoardingu protsessi digitaliseerimine aitab olla kindel, et lahkumisvestlus on peetud, töövahendid tööandjale tagastatud ning süsteemides õigused suletud.
-        - title: Töövahendite taotlused
-          description: Töötajal võib olla vaja uusi jalanõusid, tööriideid või arvutit. Seda saab taotleda tema ise või näiteks otsene juht. Protsessi automatiseerides liigub vastav soov õigele inimesele või osakonda.
-        - title: Süsteemiõiguste muudatused
-          description: Vajaduste muutudes saab teha taotlusi süsteemiõiguste juurde andmiseks või peatamiseks. Õiguste muutmise kinnitusring tagab, et kellelegi ei anta või võeta õiguseid ära kogemata ning kõigil on ligipääsud, mis neil olema peavad.
-        - title: Töötaja isikuandmete edastamine ja muudatused
-          description: Kas muutub perekonnaseis, sünnivad lapsed või vahetub pangakonto, kõiki neid muudatusi on võimalik lihtsasti hallata. Yesteris saab töötaja teavitada muutustest ning muutused jõuavad õige inimeseni.
-    - title: Igapäevane tööelu
+          description: Offboarding is a process that has received less attention than it deserves. With Yester you can customize your offboarding so that process is seamless, and nothing is left without attention. Make sure that the final discussion has taken place, all equipment has been returned, user rights have been removed etc.
+        - title: Requests for work equipment
+          description: Order equipment for yourself or for your team (new computer, shoes, work clothes etc). The task is received by the responsible person or department. Then the employee can confirm they have received the equipment. There is an overview of all received equipment therefore you will have an overview of your company’s assets.
+        - title: User rights
+          description: Give and withdraw user rights whether it is software or an access to a premise. The request goes to the correct person or department who can make needed changes. You will have a list of all granted and withdrawn rights.
+        - title: Personnel data change
+          description: Whether your bank account number or something else have changed, you can notify it through Yester and make sure it will not be lost in all the e-mails. 
+    - title: Everyday tasks
       icon: /img/calculator.svg
       items:
-        - title: Kliendikaebuste haldamine
-          description: Kliendikaebused on võimalus ettevõtte arenguks. Kogu kokku klientide ettepanekud, teavita vastavaid inimesi ning leia probleemi juurpõhjus ja lahendus, mis hoiab kliendi rahulolevana. Yester aitab seda saavutada luues sobiva töövoo ning andes ülevaate kliendikaebuse hetkeseisust.
-        - title: IT kasutajatugi
-          description: ITeavita IT tiimi ettepanekutest või probleemikohtadest. Kasutajad teavad, kes nende küsimusega tegeleb ja kuna võiks lahendust tulla
-        - title: Sõidupäevikute koostamine
-          description: Halda ettevõtte autode sõidupäevikuid või loo sõidupäevik isikliku autoga tehtud sõitude kompenseerimiseks. 
-        - title: Ostutellimuste loomine ja kinnitamine
-          description: Loo ostutellimus vajalike kaupade või teenuste ostuks. Kinnitatud ostutellimuse alusel on võimalik kaup või teenus ära tellida.
-    - title: Ütle Sina meile
+        - title: Customer suggestions and complaint management
+          description: Customer feedback can come in different forms. Gather it through suggestions or complaints, they are very important source of information. Yester helps you manage the process unique to your company involving everyone that need to be part of it by creating a suitable workflow and providing an overview of the current state of a customer suggestions or complaints. 
+        - title: IT ticketing system
+          description: Let your IT know of suggestions or make a ticket to solve a problem. Users know who is dealing with their issue and when a solution could be found.
+        - title: Fleet logbooks
+          description: Create logbooks of your company vehicles milage or compensate your personnel for using their own transportation. With Yester you can keep track all business trips made by company or personal vehicles. 
+        - title: Purchase orders
+          description: Manage your purchases by creating purchase orders and set workflows and rules for its approvals.
+    - title: You tell us
       icon: /img/boarding.svg
       items:
-        - title: Mis protsess valmistab pidevalt peavalu ja vajab korda tegemist? Yester on loodud sinu ettevõtte töövoogude lihtsustamiseks.
-    - title: Tööstus
+        - title: What workflow causes you problems every day and needs to be improved? Yester is created to digitalize and improve your workflows, try it out.
+    - title: Production
       icon: /img/helmet.svg
       items:
-        - title: Ohutusaudit
-          description: Tagamaks ohutust töökohal aitab Yester läbi viia ohutusauditeid luues automaatse töövoo auditeerijatele auditeerimiskohustuse tekitamisest, auditi läbiviimiseks kuni probleemikohtade lahenduseni
-        - title: Süsteemide/seadmete halduse ja hoolduse register 
-          description: Millised seadmed sinu ettevõttes on, kes nende eest vastutab ja kuna neid peab hooldama? Yester aitab automaatsete teavitustega sellel silma peal hoida.
-        - title: Protsessi juhtimine seadmete riketest kuni parandamiseni
-          description: Teata seadme rikkest ning saa vastus haldustiimist, kui kaua parandus aega võib võtta.
+        - title: Safety audit
+          description: Make sure your working environment is safe and create automated safety audit workflow that suit your company and standards.  
+        - title: Systems / Equipment Administration and Maintenance Register 
+          description: Keep track of all your equipment and their maintenance by issuing responsible persons and automated notifications.
+        - title: Manage your process from system or equipment failure to repair
+          description: Manage your process from system or equipment failure to repair. Process Report a device failure and get a response from the management team on how long it may take to repair. 
