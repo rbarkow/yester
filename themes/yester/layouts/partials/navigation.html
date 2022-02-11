@@ -3,7 +3,7 @@
 		<a href="/">
 			<img class="mr-5 ml-4 ml-lg-0" src="/img/yester-logo.svg" alt="YESTER Logo" width="194" height="auto" />
 		</a>
-		
+
 		<nav class="Nav__Container d-none d-lg-flex mr-5">
 			{{ $currentPage := . }}
 			{{ range site.Menus.main }}
@@ -15,7 +15,7 @@
 			</a>
 			{{ end }}
 		</nav>
-	
+
 		<nav class="Nav__Container d-none d-lg-flex">
 			{{ range site.Menus.app }}
 			<a class="Nav__Link" href="{{ .URL }}" target="_blank">
@@ -27,20 +27,21 @@
 		{{- if site.IsMultiLingual }}
 		<nav class="Nav__Container Nav__Container--small d-none d-lg-flex ml-auto">
 			{{- if site.IsMultiLingual }}
-				{{ $siteLanguages := site.Languages}}
-				{{ $pageLang := .Page.Lang}}
-				{{ range .Page.AllTranslations }}
-					{{ $translation := .}}
-					{{ range $siteLanguages }}
-						{{ if eq $translation.Lang .Lang }}
-							{{ if not (eq $pageLang .Lang)}}
-								<a href="#" id="{{ $translation.Language }}" class="Nav__Link" onclick="location = '{{ $translation.Permalink }}';">
-									{{ .LanguageName }}
-								</a>
-							{{ end }}
-						{{ end }}
-					{{ end }}
-				{{ end }}
+			{{ $siteLanguages := site.Languages}}
+			{{ $pageLang := .Page.Lang}}
+			{{ range .Page.AllTranslations }}
+			{{ $translation := .}}
+			{{ range $siteLanguages }}
+			{{ if eq $translation.Lang .Lang }}
+			{{ if not (eq $pageLang .Lang)}}
+			<a href="#" id="{{ $translation.Language }}" class="Nav__Link"
+				onclick="location = '{{ $translation.Permalink }}';">
+				{{ .LanguageName }}
+			</a>
+			{{ end }}
+			{{ end }}
+			{{ end }}
+			{{ end }}
 			{{ end }}
 		</nav>
 		{{ end }}
@@ -55,7 +56,7 @@
 	<nav class="Nav__Mobile d-lg-none" id="js_mobileNav">
 		<ul class="Nav__Mobile__List">
 			{{ range site.Menus.main }}
-			<li  class="Nav__Mobile__List__Item">
+			<li class="Nav__Mobile__List__Item">
 				<a href="#{{ .URL }}" class="Nav__Link Nav__Mobile__Link">
 					{{ .Name }}
 				</a>
@@ -63,17 +64,31 @@
 			{{ end }}
 		</ul>
 		<ul class="Nav__Mobile__List">
-			<li  class="Nav__Mobile__List__Item">
+			<li class="Nav__Mobile__List__Item">
 				<a href="" class="Nav__Link Nav__Mobile__Link">
 					Logi sisse
 				</a>
 			</li>
 		</ul>
 		<ul class="Nav__Mobile__List">
-			<li  class="Nav__Mobile__List__Item">
-				<a href="" class="Nav__Link Nav__Mobile__Link">
-					EE
+			<li class="Nav__Mobile__List__Item">
+				{{- if site.IsMultiLingual }}
+				{{ $siteLanguages := site.Languages}}
+				{{ $pageLang := .Page.Lang}}
+				{{ range .Page.AllTranslations }}
+				{{ $translation := .}}
+				{{ range $siteLanguages }}
+				{{ if eq $translation.Lang .Lang }}
+				{{ if not (eq $pageLang .Lang)}}
+				<a href="#" id="{{ $translation.Language }}" class="Nav__Link Nav__Mobile__Link"
+					onclick="location = '{{ $translation.Permalink }}';">
+					{{ .LanguageName }}
 				</a>
+				{{ end }}
+				{{ end }}
+				{{ end }}
+				{{ end }}
+				{{ end }}
 			</li>
 		</ul>
 	</nav>
