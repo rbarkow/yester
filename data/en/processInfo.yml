@@ -1,22 +1,20 @@
 processInfo:
   enable: true
   title: |
-    How do
-    \
-    we
+    How we
     \
     do it?
   subtitle: "protsessid efektiivsemaks"
   content: |
-    **Everything that can be described can be yestered.** 
+    **Everything that can be described can be yestered!** 
 
     Start with the workflow you wish to improve. Think it through so it would be simple and without "waste". 
     
-    What information needs to flow in the process? Data could come from users who input it through forms or from other software. Also add all notifications that need to be delivered to uses in different workflow stages.
+    What information needs to flow in the process? The data could come from users who input it through forms or from other software. Include also all notifications that need to be delivered to users in different workflow stages.
     
-    Think of the users who would use the workflow, what are their user roles and approval route. The route could come from company hierarchy or you could create unique route using groups. 
+    Think of the users who would use the workflow, what are their user roles and approval route. The route could be based on the company hierarchy or you could create a unique route using groups. 
     
-    What would be the languages users would be most comfortable with? In Yester you can translate processes to different languages. 
+    What would be the languages the users would be most comfortable with? In Yester you can translate processes to different languages. 
     
     It is usual that process do not start or end in Yester. Think of the integrations needed and let’s make it happen.
 
