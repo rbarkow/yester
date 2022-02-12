@@ -4,7 +4,7 @@ processContainers:
     Examples of
     \
     Workflows
-  content: Here are some examples of processes Yester can help improve. Note that many of them are not considered processes at all, but simply "part of working life". Whatever the name, Yester makes them more efficient and faster. 
+  content: Here are some examples of processes Yester can help improve. Note that many of them are not considered processes at all, but simply "part of working life". Whatever the workflow, Yester makes them more efficient and faster. 
   container:
     - title: Personnel
       icon: /img/bag.svg
