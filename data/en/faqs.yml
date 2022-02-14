@@ -2,19 +2,19 @@ faqs:
   enable : true
   title : We aim to create value
   content: | 
-    **Yester is flexible** and can be used to accommodate very different and unique workflows. Forget process management with pen, Excel or outdated tools starting from vacation management, non-conformities, equipment management, employee onboarding or offboarding. Yester will give you clear overview of process statuses.
+    **Yester is flexible** and can be used to accommodate very different and unique workflows. Forget process management using pen and paper, Excel or other outdated tools. From vacation management, non-conformities and equipment management to employee onboarding or offboarding, Yester will give you a clear overview of the status of your processes.
   items :
-    - title : Less duplicate activities
-      content : Doing same thing several times by different people waste time and is real work motivation killer. Yester helps you set your processes in a clear path so every task has a responsible person or a group. Yester integrates your current software to reduce excess manual work.
+    - title : Fewer duplicate activities
+      content : Different people repeating the same task multiple times is not only a waste of time but also a real motivation killer. Yester helps you set up your processes in a clear way so that every task has a responsible person or a group. It integrates your current software to reduce excess manual work.
 
     - title : Clear overview
-      content : In Yester you set the order of tasks to be done and have clear understanding who is responsible of current task. Everyone have understanding of who has the ball and what needs to be done to move forward.
+      content : In Yester you set the order of tasks to be performed and have a clear understanding of who is responsible for each task. Everyone has an overview of who has to perform the current task and what needs to be done to move forward.
 
-    - title : Reduces waste
-      content : Processes will be faster as the path has been set and everyone knows what to do and when. No wondering who is responsible now or is it already done. 
+    - title : Reduces waste / More efficient processes
+      content : Processes will be faster as the path has been set and everyone knows what to do and when. There will be no wondering who is currently responsible or whether the task has already been completed.
 
-    - title : Information flows quickly
-      content : Receiving client feedback requires immediate attention. In Yester everyone who needs to be involved will be involved through notifications with overview of the matter in hand. No chain e-mails, duplicated problem solving or forgetting to react.
-
+    - title : Improved information flow
+      content : Receiving client feedback requires immediate attention. With Yester, everyone who needs to be involved will receive a notification with an overview of the matter in hand. No chain emails, duplicated problem solving or forgetting to react.
+      
     - title : Easy to customize and develop further
-      content : Yester allows you to react to your current needs by simply developing your workflow. For example, if purchase manager needs to be involved in a client feedback process it is quick and seamless. Or your company decides to reduce approvals of a vacation process - it’s just a quick change and can be done without weeks of development.
+      content : Yester allows you to react to your current needs by simply developing your workflow. For example, if the purchase manager needs to be involved in a client feedback process, the change can be made quickly and seamlessly. Or if your company decides to reduce approvals of a vacation process - it’s just a quick change and can be done without weeks of development.
